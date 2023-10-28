@@ -1,0 +1,235 @@
+/* Google Fonts - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.product {
+    display: none;
+}
+#product {
+    display: block;
+}
+
+/* navabar colour 9f489b */
+.nav {
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 69px 15px 200px;
+    background: #9f489b;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.nav,
+.nav .nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    justify-content: space-between;
+    height: 10rem;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav .logo {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.nav .nav-links {
+    column-gap: 20px;
+    list-style: none;
+}
+
+.nav .nav-links a {
+    transition: all 0.2s linear;
+    background: none !important;
+}
+
+.nav.openSearch .nav-links a {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.nav .search-icon {
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.nav .search-box {
+    position: absolute;
+    right: 284px;
+    height: 45px;
+    max-width: 555px;
+    width: 100%;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.2s linear;
+}
+
+.nav.openSearch .search-box {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.search-box .search-icon {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    left: 15px;
+    color: #854382;
+    transform: translateY(-50%);
+}
+
+.search-box input {
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    background-color: #fff;
+    padding: 0 15px 0 45px;
+}
+
+.nav .navOpenBtn,
+.nav .navCloseBtn {
+    display: none;
+}
+
+/* responsive */
+@media screen and (max-width: 1080px) {
+    .nav {
+        padding: 15px 62px;
+        height: 4rem !important;
+    }
+    .nav.nav-small {
+        height: 33px !important;
+    }
+    .nav .search-box {
+        right: 337px;
+    }
+
+    .logo-navbar {
+        float: left;
+        margin-left: -82px !important;
+        margin-top: 40px;
+        height: 11rem;
+        width: 82px !important;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .nav {
+        padding: 15px 50px;
+    }
+
+    .nav .search-box {
+        right: 246px;
+        max-width: 400px;
+    }
+
+    .logo-navbar {
+        float: left;
+        margin-left: -82px !important;
+        margin-top: 40px;
+        height: 11rem;
+        width: 82px !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .nav .navOpenBtn,
+    .nav .navCloseBtn {
+        display: block;
+    }
+    .product {
+        display: block !important;
+    }
+    #product {
+        display: none !important;
+    }
+
+    .search-box input {
+        height: 84%;
+        width: auto;
+    }
+
+    .nav {
+        padding: 15px 20px;
+    }
+
+    .logo-navbar {
+        float: left;
+        margin-left: -82px !important;
+        margin-top: 1px !important;
+        height: 8rem !important;
+        width: 81px !important;
+    }
+    .nav-shrink .logo-navbar {
+        height: 8rem !important;
+        margin-top: 22px !important;
+    }
+    .nav .nav-links {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        height: auto;
+        max-width: 100%;
+        width: 100%;
+        padding-top: 100px;
+        row-gap: 6px;
+        flex-direction: column;
+        background-color: #4e1d63ed;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        transition: all 0.4s ease;
+        z-index: 100;
+    }
+
+    .nav.openNav .nav-links {
+        left: 0;
+    }
+
+    .nav .navOpenBtn {
+        color: #fff;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .nav .navCloseBtn {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        color: #fff;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .nav .search-box {
+        top: calc(100% + 10px);
+        max-width: calc(100% - 20px);
+        right: 50%;
+        transform: translateX(50%);
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+}
+.logo-navbar {
+    float: left;
+    margin-left: -229px;
+    margin-top: 0px;
+    height: 10rem;
+    width: 107px;
+}
+.navbar-scroll {
+    height: 60px; /* Set your desired reduced height here */
+    /* You can also add other styles to customize the appearance when scrolling down */
+}

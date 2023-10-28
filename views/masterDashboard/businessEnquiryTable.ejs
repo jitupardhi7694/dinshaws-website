@@ -1,0 +1,114 @@
+<%- include('../layout/partials/messages.ejs') %>
+
+
+    <div class="tableContainer">
+        .
+
+        <div class="container">
+            <div class="col-md-12">
+                <div class="text-center">
+                    <h3 class="table-heading">Business Enquiry Table - <%= row.length %>
+                    </h3>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container">
+            <div class="col-md-12">
+                <div class="col-md-12   ">
+                    <!-- Table -->
+                    <div class="table-wrapper">
+                        <div class="table-title">
+                            <div class="row">
+
+                                <div class="col-sm-10">
+                                    <a href="/business-enquiry" type="button" class="btn-sm btn-info add-new"><i
+                                            class="fa fa-plus"></i> Add
+                                        New</a>
+                                    <button id="export" class="btn btn-primary"> <i class="bi bi-download"></i>
+
+                                    </button>
+                                </div>
+                                <div class="col-sm-2">
+                                    <a href="javascript:history.back()" class="back" id=""><span
+                                            class='bi bi-arrow-left-circle-fill'></span>
+                                        Back</a>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="table-container-1">
+                            <div class="table-responsive">
+                                <table class="table table-bordered" id="table">
+                                    <thead>
+                                        <tr class="thead">
+                                            <!-- <th scope="col">Action</th> -->
+                                            <th scope="col">#Id</th>
+                                            <th scope="col">Name</th>
+                                            <th scope="col">Email Id</th>
+                                            <th scope="col">Mobile No</th>
+                                            <th scope="col">Purpose</th>
+                                            <th scope="col">Location</th>
+                                            <th scope="col">Message</th>
+                                            <th scope="col">Created At</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <% row.reverse() %>
+                                            <% if(row.length !==0) { var i=1; row.forEach(function(data) { %>
+                                                <tr class="tbody">
+                                                    <!-- <td>
+                                                        <a href="/business-enquiry/edit/<%= data.id %>" class="edit"
+                                                            title="Edit" data-toggle="tooltip" >
+                                                            <em class="fa fa-pencil"></em>
+                                                        </a>
+
+
+                                                        <a href="/business-enquiry/businessEnquiryTable/<%= data.id %>/delete"
+                                                            class="delete" title="Delete" 
+                                                            data-toggle="tooltip">
+                                                            <em class="fa fa-trash"></em>
+                                                        </a>
+                                                    </td> -->
+                                                    <td>
+                                                        <%= data.id %>
+                                                    </td>
+                                                    <td>
+                                                        <%= data.name %>
+                                                    </td>
+                                                    <td>
+                                                        <%= data.email %>
+                                                    </td>
+                                                    <td>
+                                                        <%= data.mobile %>
+                                                    </td>
+                                                    <td>
+                                                        <%= data.purpose %>
+                                                    </td>
+                                                    <td>
+                                                        <%= data.location %>
+                                                    </td>
+                                                    <td>
+                                                        <%= data.message %>
+                                                    </td>
+                                                    <td>
+                                                        <%= data.created_at %>
+                                                    </td>
+                                                </tr>
+                                                <% i++; }) %>
+                                                    <% } else { %>
+                                                        <tr class="text-center">
+                                                            <td colspan="20">No Record Found</td>
+                                                        </tr>
+                                                        <% } %>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

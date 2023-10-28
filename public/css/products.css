@@ -1,0 +1,1515 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Bitter:ital,wght@0,500;1,400&family=Comfortaa&family=Nunito&family=Quicksand:wght@400;600&family=Rubik&family=Signika+Negative&family=Sulphur+Point:wght@700&family=Yeseva+One&display=swap');
+
+body {
+    background-color: none !important;
+}
+.container-product-mg {
+    display: block !important;
+}
+.product-img-1 {
+    width: 100vw !important;
+    height: auto !important;
+}
+.flex-certification {
+    display: flex;
+    height: auto;
+    padding: 0 0 49px 0;
+}
+.text-white {
+    color: white !important;
+}
+.scrollup {
+    position: fixed !important;
+    width: 52px !important;
+    height: 52px !important;
+    bottom: 20px !important;
+    right: 50px !important;
+    background: #9b59b6 !important;
+    -webkit-border-radius: 2px 2px 0 0 !important;
+    -moz-border-radius: 2px 2px 0 0 !important;
+    border-radius: 60px !important;
+    display: block !important;
+    opacity: 1.56 !important;
+}
+.product-header-one {
+    display: block !important;
+    margin-bottom: -127px !important;
+    margin-top: 100px !important;
+}
+.container-product-mg {
+    margin-bottom: 2px;
+    /* margin-bottom: -19px; */
+    display: block !important;
+}
+.milk-roduct-list {
+    font-family: 'QuickSand', sans-serif !important;
+    margin: 0;
+}
+.all-product-container {
+    display: none !important;
+}
+.product-card-one {
+    background-color: rgb(0, 131, 183) !important;
+    padding: 0 0 0 !important;
+    text-transform: capitalize !important;
+    margin: 128px 0 0 0 !important;
+}
+
+.icecreame-container {
+    margin-bottom: -27px;
+}
+
+.milk-heading-card {
+    padding: 134px 105px;
+    display: grid;
+}
+.career-container {
+    margin-bottom: 0px;
+}
+.product-heading-card {
+    padding: 85px 104px;
+    display: grid;
+}
+
+.menu-itmem-container {
+    width: 100% !important;
+    height: 100% !important;
+}
+.milk-product-container {
+    margin-bottom: -18px;
+}
+.product-heading-card2 {
+    padding: 111px 104px;
+    display: grid;
+}
+.product-heading-card3 {
+    padding: 116px 104px;
+    display: grid;
+}
+#product-card-one {
+    display: none !important;
+}
+.product-card-three {
+    background-color: rgb(235, 112, 115) !important;
+    padding: 0 0 0 !important;
+    text-transform: capitalize !important;
+}
+#product-card-three {
+    display: none !important;
+}
+.product-header-two {
+    display: none !important;
+}
+
+.product-card-two {
+    display: none !important;
+}
+
+.milk-product-menu-card {
+    height: 100%;
+    width: 100%;
+}
+
+.our-legacy-container {
+    margin-bottom: 0px;
+    margin-top: -23px;
+}
+
+#product-card-five {
+    display: none !important;
+}
+.product-card-five {
+    background-color: #d35555 !important;
+    padding: 0 0 0 !important;
+    text-transform: capitalize !important;
+    display: block !important;
+}
+#milk-first-card {
+    display: none !important;
+}
+.milk-first-card {
+    background-color: rgb(0, 131, 183) !important;
+    padding: 0 0 0 !important;
+    text-transform: capitalize !important;
+    margin-top: 100px;
+    height: auto;
+    display: block !important;
+}
+#milk-products-first-card {
+    display: none !important;
+}
+.milk-products-first-card {
+    background-color: rgb(235, 112, 115) !important;
+    padding: 0 0 0 !important;
+    text-transform: capitalize !important;
+    margin-top: 100px !important;
+    height: auto !important;
+}
+#milk-bakery-first-card {
+    display: none !important;
+}
+.milk-bakery-first-card {
+    background-color: rgb(221, 82, 85) !important;
+    padding: 0 0 0 !important;
+    text-transform: capitalize !important;
+    margin-top: 100px !important;
+    height: auto !important;
+}
+#milk-namkeen-first-card {
+    display: none !important;
+}
+.milk-namkeen-first-card {
+    background-color: #4cbd85 !important;
+    padding: 0 0 0 !important;
+    text-transform: capitalize !important;
+    margin-top: 100px !important;
+    height: auto !important;
+}
+#milk-icecream-first-card {
+    display: none !important;
+}
+.milk-icecream-first-card {
+    background-color: #854382 !important;
+    padding: 0 0 0 !important;
+    text-transform: capitalize !important;
+    margin-top: 100px !important;
+    height: auto !important;
+}
+
+.product-h5 {
+    text-align: justify !important;
+    font-size: 2.5rem;
+    line-height: 1.75rem;
+    font-family: 'Yeseva One', serif !important;
+    font-weight: 500 !important;
+    line-height: 1.375;
+    color: rgb(255, 255, 255) !important;
+}
+.product-h {
+    text-align: justify !important;
+    font-size: 3.5rem;
+    line-height: 1.75rem;
+    font-family: 'YesevaOne', serif;
+    font-weight: 800 !important;
+    line-height: 1.375;
+    color: rgb(255, 255, 255) !important;
+}
+#milk-card-img {
+    display: none !important;
+}
+#milk-icecream-img {
+    display: none !important;
+}
+.milk-icecream-img {
+    height: 100vh;
+    width: -webkit-fill-available;
+}
+.milk-card-img {
+    height: auto;
+    width: 100%;
+    min-height: auto !important;
+}
+
+.bakery-menu-card {
+    height: 100%;
+    width: 100%;
+    margin-bottom: -27px;
+}
+.milk-product-overlap {
+    padding: 50px 53rem 0 76px;
+    position: absolute;
+}
+
+.bakery-product-overlap {
+    position: absolute;
+    padding: 54px 331px 0 68px;
+}
+.namkeen-overlap {
+    padding: 25px 460px 0 45px;
+    position: absolute;
+}
+/* .milk-overlap {
+    margin-top: -590px !important;
+    margin-bottom: 460px !important;
+    padding: 0 405px 0px 77px;
+} */
+
+.milk-overlap {
+    position: absolute;
+    padding: 43px 440px 16px 60px;
+}
+
+.milk-overlap-icecream {
+    position: absolute;
+    padding: 48px 382px 0 65px;
+}
+.heading-card {
+    padding: 145px 73px;
+}
+
+.icecreame-heading-card {
+    padding: 144px 77px;
+}
+.bakery-heading-card {
+    padding: 172px 77px 0px 77px;
+    text-transform: none;
+}
+
+.namkeen-heading-card {
+    padding: 154px 75px;
+    text-transform: none;
+}
+
+.milk-overfloy-text {
+    font-size: 3.5rem !important;
+    font-family: 'Yeseva One', serif !important;
+    font-weight: 500 !important;
+    color: #854382 !important;
+}
+
+.milk-product-overfloy-text {
+    font-size: 3.7rem !important;
+    font-family: 'Yeseva One', serif !important;
+    font-weight: 500 !important;
+    color: #686767 !important ;
+}
+.milk-namkeen-overfloy-text {
+    font-size: 3.5rem !important;
+    font-family: 'Yeseva One', serif !important;
+    font-weight: 500 !important;
+    color: #854382 !important;
+    margin: 0 0 5px 0;
+}
+.milk-icecream-overfloy-text {
+    font-size: 3.5rem !important;
+    color: #20a3fa !important;
+    font-family: 'Yeseva One', serif !important;
+    font-weight: 500 !important;
+}
+.milk-card {
+    height: auto !important;
+    width: 32vw !important;
+    background: #854382 !important;
+    /* margin-left: 60px !important; */
+    position: absolute !important;
+    border-radius: 23px !important;
+    padding: 14px 20px;
+}
+
+.carousal-legacy-image {
+    height: 100vh !important;
+    width: 100vw !important;
+    padding-top: 77px !important;
+}
+
+.bakery-item-bread {
+    height: auto !important;
+    width: auto !important;
+    background-color: rgb(221, 82, 85) !important;
+    border-radius: 23px !important;
+    margin-right: 16px;
+    padding: 0 7px 8px 0;
+}
+.namkeen-menu-card {
+    /* height: 110vh !important; */
+    height: 100%;
+    width: 100%;
+    margin-bottom: 0px;
+}
+.namkeen-item-bread {
+    height: auto !important;
+    width: auto !important;
+    background-color: #4cbd85 !important;
+    border-radius: 23px !important;
+    margin-right: 9px;
+    padding: 16px 21px 0px 0px;
+}
+.namkeen-item-toast {
+    height: auto !important;
+    width: auto !important;
+    background-color: #4cbd85 !important;
+    border-radius: 23px !important;
+    padding: 13px 10px 13px 10px;
+}
+.bakery-item-toast {
+    height: auto !important;
+    width: auto !important;
+    background-color: rgb(221, 82, 85) !important;
+    border-radius: 23px !important;
+    padding: 0 30px 0 0;
+}
+.milk-product-card {
+    height: auto !important;
+    width: auto !important;
+    background: rgb(222, 122, 98) !important;
+    position: absolute !important;
+    border-radius: 23px !important;
+    padding: 9px 24px 7px 0px;
+}
+
+.milk-h5 {
+    text-align: justify !important;
+    font-size: 2.5rem;
+    line-height: 1.75rem;
+    font-family: 'Yeseva One', serif !important;
+    font-weight: 500 !important;
+    line-height: 1.375;
+    color: rgb(255, 255, 255) !important;
+}
+.bakery-h5 {
+    text-align: justify !important;
+    font-size: 2.5rem;
+    line-height: 1.75rem;
+    font-family: 'Yeseva One', serif;
+    font-weight: 500 !important;
+    color: rgb(255, 255, 255) !important;
+}
+.product-h6 {
+    text-align: justify !important;
+    font-size: 3.5rem;
+    line-height: 1.75rem;
+    font-family: 'YesevaOne', serif;
+    font-weight: 800 !important;
+    line-height: 1.375;
+    color: rgb(255, 255, 255) !important;
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+    padding-top: 50px !important;
+}
+
+.product-one-para {
+    font-family: 'QuickSand', sans-serif !important;
+    text-align: center;
+    font-weight: 500 !important;
+    font-size: 1.6rem;
+    color: white !important;
+    text-transform: none;
+    text-align: justify !important;
+}
+
+.milk-one-para {
+    font-family: 'QuickSand', sans-serif !important;
+    text-align: center;
+    font-weight: 600 !important;
+    font-size: 1.7rem;
+    color: white !important;
+    text-align: justify !important;
+    text-transform: none;
+}
+.milk-overfloy-para {
+    font-family: 'QuickSand', sans-serif !important;
+    text-align: center;
+    font-weight: 600 !important;
+    font-size: 1.8rem;
+    color: rgb(70 63 63) !important;
+    text-align: justify !important;
+}
+.milk-product-overfloy-para {
+    font-family: 'QuickSand', sans-serif !important;
+    text-align: center;
+    font-weight: 600 !important;
+    font-size: 1.8rem;
+    color: #686767 !important;
+    text-align: justify !important;
+}
+.bakery-overfloy-para {
+    font-family: 'QuickSand', sans-serif !important;
+    text-align: center;
+    font-weight: 600 !important;
+    font-size: 1.8rem;
+    color: rgb(255, 255, 255) !important;
+    text-align: justify !important;
+}
+.milk-namkeen-overfloy-para {
+    font-family: 'QuickSand', sans-serif !important;
+    font-weight: 500 !important;
+    font-size: 1.6rem;
+    color: rgb(0, 0, 0) !important;
+    text-align: justify !important;
+    line-height: 1.2;
+    margin: 0 0 8px 0;
+}
+.milk-icecream-overfloy-para {
+    font-family: 'QuickSand', sans-serif !important;
+    text-align: center;
+    font-weight: 600 !important;
+    font-size: 1.8rem;
+    color: rgb(66, 66, 66) !important;
+    text-align: justify !important;
+}
+.milk-card-info {
+    margin-left: 0px !important;
+}
+.bakery-card-info {
+    margin-left: 0px !important;
+    padding: 0 21px;
+}
+.milk-product-flex {
+    margin-left: 35px !important;
+    margin-top: 10px !important;
+}
+
+.flex-bakery-item {
+    display: flex !important;
+    margin-left: 0px;
+}
+
+table,
+tbody {
+    border: none !important;
+}
+
+th,
+td,
+tr {
+    border: none !important;
+}
+.milk-type-text {
+    text-align: justify !important;
+    color: white !important;
+    line-height: 0.8;
+    font-size: 1.9rem;
+    font-weight: 700 !important;
+    font-family: 'QuickSand', sans-serif !important;
+}
+.bakery-type-text {
+    text-align: justify !important;
+    color: white !important;
+    line-height: 1;
+    font-size: 1.9rem;
+    font-weight: 700 !important;
+    font-family: 'QuickSand', sans-serif !important;
+}
+.milk-product-type-text {
+    text-align: justify !important;
+    color: white !important;
+    line-height: 0.8;
+    font-size: 1.9rem;
+    font-weight: 700 !important;
+    font-family: 'QuickSand', sans-serif !important;
+}
+
+.milk-rate-type-text {
+    text-align: justify !important;
+    color: white !important;
+    line-height: 0.8;
+    font-size: 1.9rem;
+    font-weight: 700 !important;
+    font-family: 'QuickSand', sans-serif !important;
+    padding-left: 10px !important;
+}
+
+.icecream-para {
+    font-family: 'QuickSand', sans-serif !important;
+    text-align: justify;
+    font-weight: 400 !important;
+    font-size: 1.8rem;
+    color: white !important;
+    text-align: justify !important;
+}
+
+.product-btn-one {
+    height: 60px !important;
+    width: 170px !important;
+    border-radius: 50px !important;
+    text-align: center !important;
+    background-color: #854382;
+    border: none;
+    font-size: 1.9rem !important;
+    font-weight: 500 !important;
+}
+.icecream-btn {
+    height: 60px !important;
+    width: 170px !important;
+    border-radius: 50px !important;
+    text-align: center !important;
+    background-color: #854382 !important;
+    border: 2px solid white !important;
+    font-size: 1.9rem !important;
+    font-weight: 500 !important;
+}
+
+.icecream-btn:hover {
+    border: 2px solid rgb(0, 255, 221) !important;
+}
+
+.product-img-one {
+    width: 50.5vw !important;
+    height: auto !important;
+}
+
+.milk-img-one {
+    width: 50.5vw !important;
+    height: auto !important;
+}
+.product-img-TWO {
+    width: 50.5vw !important;
+    height: auto !important;
+}
+#product-card-four {
+    display: none !important;
+}
+#product-card-six {
+    display: none !important;
+}
+.product-card-four {
+    background-color: #854382 !important;
+    padding: 0 0 0 !important;
+    text-transform: capitalize !important;
+    display: block !important;
+}
+.product-card-six {
+    background-color: #4cbd85 !important;
+    padding: 0 0 0 !important;
+    text-transform: capitalize !important;
+    display: block !important;
+    margin-bottom: 0px !important;
+}
+
+/* media query  */
+
+@media (min-width: 320px) and (max-width: 1075px) {
+    .product-card-one {
+        display: none !important;
+    }
+    .flex-certification {
+        margin: 0 0 0 -20px !important;
+    }
+
+    #product-card-three {
+        background-color: rgb(235, 112, 115) !important;
+        padding: 0 0 0 !important;
+        text-transform: capitalize !important;
+        display: block !important;
+        height: auto !important;
+    }
+    .product-card-three {
+        display: none !important;
+    }
+
+    .product-card-four {
+        display: none !important;
+    }
+
+    .icecreame-container {
+        margin-bottom: 0px;
+    }
+    #product-card-four {
+        background-color: #854382 !important;
+        padding: 0 0 0 !important;
+        text-transform: capitalize !important;
+        display: block !important;
+        height: auto !important;
+    }
+    .product-card-five {
+        display: none !important;
+    }
+    .product-card-six {
+        display: none !important;
+    }
+
+    .milk-card-img {
+        height: 110vh !important;
+    }
+
+    #product-card-five {
+        background-color: rgb(221, 82, 85) !important;
+        padding: 0 0 0 !important;
+        text-transform: capitalize !important;
+        display: block !important;
+        height: auto !important;
+    }
+    #product-card-six {
+        background-color: #4cbd85 !important;
+        padding: 0 0 0 !important;
+        text-transform: capitalize !important;
+        display: block !important;
+        height: auto !important;
+    }
+
+    .milk-first-card {
+        display: none !important;
+    }
+    #milk-first-card {
+        background-color: rgb(0, 131, 183) !important;
+        padding: 0 0 0 !important;
+        text-transform: capitalize !important;
+        display: block !important;
+        margin-top: 46px !important;
+        margin-bottom: -5px !important;
+    }
+    .milk-products-first-card {
+        display: none !important;
+    }
+    #milk-products-first-card {
+        background-color: rgb(235, 112, 115) !important;
+        padding: 0 0 0 !important;
+        text-transform: capitalize !important;
+        display: block !important;
+        margin-top: 45px !important;
+    }
+    .milk-bakery-first-card {
+        display: none !important;
+    }
+    #milk-bakery-first-card {
+        background-color: rgb(221, 82, 85) !important;
+        padding: 0 0 0 !important;
+        text-transform: capitalize !important;
+        display: block !important;
+        margin-top: 46px !important;
+    }
+    .milk-namkeen-first-card {
+        display: none !important;
+    }
+    #milk-namkeen-first-card {
+        background-color: #4cbd85 !important;
+        padding: 0 0 0 !important;
+        text-transform: capitalize !important;
+        display: block !important;
+        margin-top: 46px !important;
+    }
+    .milk-icecream-first-card {
+        display: none !important;
+    }
+    #milk-icecream-first-card {
+        background-color: #854382 !important;
+        padding: 0 0 0 !important;
+        text-transform: capitalize !important;
+        display: block !important;
+        margin-top: 45px !important;
+    }
+    .milk-heading-card {
+        padding: 14px 12px !important;
+        display: grid;
+    }
+    .milk-card-img {
+        display: none !important;
+    }
+    #milk-card-img {
+        height: 100vh;
+        width: 100vw;
+        display: block !important;
+        /* margin-bottom: 82px !important; */
+    }
+    #milk-icecream-img {
+        height: 71vh !important;
+        width: 100vw !important;
+        display: block !important;
+    }
+    .milk-icecream-img {
+        display: none !important;
+    }
+    .milk-product-overlap {
+        position: absolute;
+        padding: 24px;
+    }
+
+    .our-legacy-container {
+        margin-bottom: 0px;
+    }
+
+    .bakery-product-overlap {
+        position: absolute;
+        padding: 32px 26px;
+    }
+    .namkeen-overlap {
+        padding: 25px 25px;
+        position: absolute;
+    }
+
+    .namkeen-menu-card {
+        margin-bottom: 30px !important;
+    }
+
+    /* .milk-overlap {
+        margin-top: -546px !important;
+        margin-bottom: 0px !important;
+        margin-left: -50px !important;
+        padding: 0px 0px 436px 0px;
+    } */
+    .milk-overlap {
+        position: absolute;
+        padding: 19px 14px;
+    }
+    .icecreame-menu-card {
+        height: 70vh;
+        width: 100%;
+        margin-bottom: -10px;
+    }
+    .bakery-card-info {
+        padding: 0 6px;
+    }
+    .milk-product-menu-card {
+        height: 100vh;
+        width: 100%;
+        margin-bottom: -30px;
+    }
+    /* .menu-itmem-container {
+        margin-bottom: -30px;
+    } */
+
+    .namkeen-menu-card {
+        height: 92vh;
+    }
+
+    .bakery-menu-card {
+        height: 100vh !important;
+        width: 100%;
+        margin-bottom: -50px;
+    }
+    .milk-overlap-icecream {
+        position: absolute;
+        padding: 29px 24px;
+    }
+
+    .milk-icecream-overfloy-text {
+        font-size: 2.2rem !important;
+        font-family: 'Yeseva One', serif !important;
+        font-weight: 500 !important;
+        color: #20a3fa !important;
+    }
+
+    .milk-overfloy-para {
+        font-family: 'QuickSand', sans-serif !important;
+        text-align: justify !important;
+        font-weight: 400 !important;
+        font-size: 1.4rem !important;
+        color: rgb(0, 0, 0) !important;
+        text-align: justify !important;
+        line-height: 1.25 !important;
+    }
+    .milk-product-overfloy-para {
+        font-family: 'QuickSand', sans-serif !important;
+        text-align: justify !important;
+        font-weight: 600 !important;
+        font-size: 1.2rem !important;
+        color: #686767 !important;
+        line-height: 1.25 !important;
+    }
+
+    .bakery-overfloy-para {
+        font-family: 'QuickSand', sans-serif !important;
+        text-align: justify !important;
+        font-weight: 400 !important;
+        font-size: 1.2rem !important;
+        color: rgb(255, 255, 255) !important;
+        text-align: justify !important;
+        line-height: 1.25 !important;
+    }
+    .milk-icecream-overfloy-para {
+        font-family: 'QuickSand', sans-serif !important;
+        text-align: justify !important;
+        font-weight: 400 !important;
+        font-size: 1.4rem !important;
+        color: rgb(66, 66, 66) !important;
+        text-align: justify !important;
+        line-height: 1.25 !important;
+    }
+    .milk-card-info {
+        margin-left: 0px !important;
+    }
+    .milk-product-flex {
+        margin-left: 0px !important;
+        padding: 0 15px;
+    }
+
+    .department-career {
+        margin-left: 31px !important;
+    }
+    .milk-type-text {
+        text-align: justify !important;
+        color: white !important;
+        line-height: 0.625 !important;
+        font-size: 1.2rem !important;
+        font-weight: 500 !important;
+        font-family: 'QuickSand', sans-serif !important;
+        display: flex !important;
+        height: 1vh !important;
+    }
+    .bakery-type-text {
+        text-align: justify !important;
+        color: white !important;
+        line-height: 0.625 !important;
+        font-size: 1.2rem !important;
+        font-weight: 700 !important;
+        font-family: 'QuickSand', sans-serif !important;
+        display: flex !important;
+        height: 1vh !important;
+        padding-bottom: 2px !important;
+    }
+    .milk-product-type-text {
+        text-align: justify !important;
+        color: white !important;
+        line-height: 3.625 !important;
+        font-size: 1.3rem !important;
+        font-weight: 600 !important;
+        font-family: 'QuickSand', sans-serif !important;
+        display: flex !important;
+        height: 1vh !important;
+        padding-bottom: 0px !important;
+    }
+    .department-career-text {
+        text-align: justify !important;
+        color: white !important;
+        line-height: 3.625 !important;
+        font-size: 1.3rem !important;
+        font-weight: 600 !important;
+        font-family: 'QuickSand', sans-serif !important;
+
+        display: flex !important;
+        height: 1vh !important;
+        padding-bottom: 13px !important;
+    }
+    .milk-rate-type-text {
+        text-align: justify !important;
+        color: white !important;
+        line-height: 1.625 !important;
+        font-size: 1.3rem !important;
+        font-weight: 600 !important;
+        font-family: 'QuickSand', sans-serif !important;
+        display: flex !important;
+        height: 1vh !important;
+        padding-left: 82px !important;
+        padding-bottom: 6px !important;
+        position: relative !important;
+    }
+    .career-dep-desc-text {
+        text-align: justify !important;
+        color: white !important;
+        line-height: 1.625 !important;
+        font-size: 1.3rem !important;
+        font-weight: 600 !important;
+        font-family: 'QuickSand', sans-serif !important;
+        display: flex !important;
+        height: 1vh !important;
+        padding-left: 82px !important;
+        padding-bottom: 18px !important;
+        position: relative !important;
+    }
+    .milk-card {
+        height: auto !important;
+        width: auto !important;
+        background: #854382 !important;
+        position: absolute !important;
+        border-radius: 23px !important;
+    }
+
+    .bakery-item-bread {
+        height: auto !important;
+        width: auto !important;
+        background-color: rgb(221, 82, 85) !important;
+
+        position: absolute !important;
+        border-radius: 15px !important;
+    }
+    .namkeen-item-bread {
+        height: auto !important;
+        width: auto !important;
+        background-color: #4cbd85 !important;
+        border-radius: 23px !important;
+    }
+    .namkeen-item-toast {
+        height: auto !important;
+        width: auto !important;
+        background-color: #4cbd85 !important;
+        border-radius: 23px !important;
+    }
+
+    .milk-product-container {
+        margin-bottom: 0px;
+    }
+
+    .bakery-item-toast {
+        height: auto !important;
+        width: auto !important;
+        background-color: rgb(221, 82, 85) !important;
+        margin-left: 133px !important;
+        position: absolute !important;
+        border-radius: 15px !important;
+        padding: 0px 11px 8px 0 !important;
+    }
+
+    .milk-product-card {
+        height: auto !important;
+        width: auto !important;
+        background: rgb(222, 122, 98) !important;
+
+        position: absolute !important;
+        border-radius: 23px !important;
+    }
+    .milk-overfloy-text {
+        font-size: 2.4rem !important;
+        font-family: 'Yeseva One', serif !important;
+        font-weight: 500 !important;
+        color: #854382 !important;
+        margin: 0 !important;
+        padding: 0 0 10px 0;
+    }
+    .milk-product-overfloy-text {
+        font-size: 2.4rem !important;
+        font-family: 'Yeseva One', serif !important;
+        font-weight: 500 !important;
+        color: #686767 !important;
+    }
+    .milk-namkeen-overfloy-text {
+        font-size: 2.2rem !important;
+        font-family: 'Yeseva One', serif !important;
+        color: #854382 !important;
+    }
+    .text-overfloy {
+        position: absolute !important;
+        top: 100px !important;
+        left: 0 !important;
+        right: 0 !important;
+        bottom: 0 !important;
+        overflow: hidden !important;
+        padding: 20px !important;
+    }
+    #product-card-one {
+        background-color: rgb(0, 131, 183) !important;
+        padding: 0 0 0 !important;
+        text-transform: capitalize !important;
+        display: block !important;
+        height: auto !important;
+    }
+    .product-img-one {
+        width: 100% !important;
+        height: 100% !important;
+        /* margin-top: 0 !important; */
+    }
+    * {
+        box-sizing: content-box !important;
+        margin-top: 0 !important;
+    }
+    .milk-img-one {
+        width: 100% !important;
+        height: 100% !important;
+    }
+    .heading-card {
+        padding: 0px 10px !important;
+    }
+
+    .icecreame-heading-card {
+        padding: 0px 10px !important;
+    }
+    .bakery-heading-card {
+        padding: 0px 10px !important;
+    }
+    .namkeen-heading-card {
+        padding: 0px 10px !important;
+    }
+
+    .product-img-2 {
+        height: auto !important;
+        display: block !important;
+        /* vertical-align: middle !important; */
+        width: 100vw !important;
+        max-width: 100% !important;
+    }
+
+    .product-h5 {
+        text-align: justify !important;
+        font-size: 1.9rem;
+        font-family: 'Yeseva One', serif !important;
+        font-weight: 500 !important;
+        color: rgb(255, 255, 255) !important;
+        margin: 0 !important;
+        padding: 0 0px 8px 0;
+    }
+    .product-h {
+        font-size: 1.9rem;
+        font-family: 'Yeseva One', serif !important;
+        font-weight: 800 !important;
+        line-height: 1.375;
+        color: rgb(255, 255, 255) !important;
+        margin: 0;
+        padding: 19px 0 12px 0;
+    }
+
+    .product-heading-card {
+        padding: 16px 14px 0 14px;
+        display: grid;
+    }
+    .product-heading-card2 {
+        padding: 12px 14px 0 14px;
+        display: grid;
+    }
+    .product-heading-card3 {
+        padding: 15px 9px 32px 12px;
+        display: grid;
+    }
+
+    .product-one-para {
+        font-family: 'QuickSand', sans-serif !important;
+        text-align: center;
+        font-weight: 600 !important;
+        font-size: 1.25rem;
+        color: white !important;
+        text-align: justify !important;
+        margin: 0;
+        padding: 0 0 20px 0;
+        line-height: 1.3;
+    }
+    .contact-overlay {
+        position: absolute;
+        width: 60% !important;
+        padding: 0 0 0 0 !important;
+    }
+    /* .search-box {
+        margin-top: -56px !important;
+        height: 20px !important;
+        width: 11vw !important;
+    } */
+    .card-text {
+        padding: 0 !important;
+    }
+
+    .milk-one-para {
+        font-family: 'QuickSand', sans-serif !important;
+        font-weight: 550 !important;
+        font-size: 1.25rem;
+        color: white !important;
+        text-align: justify !important;
+        line-height: 1.4;
+        margin: 0;
+    }
+    .service-box {
+        padding: 16px 9px !important;
+    }
+    .product-btn-one {
+        height: 35px !important;
+        width: 120px !important;
+        border-radius: 50px !important;
+        text-align: center !important;
+        background-color: #854382;
+        border: none;
+        font-size: 1rem !important;
+        font-weight: 500 !important;
+        margin: 32px 0;
+    }
+
+    .icecream-btn {
+        height: 35px !important;
+        width: 120px !important;
+        border-radius: 50px !important;
+        text-align: center !important;
+        background-color: #854382;
+        border: 2px solid white !important;
+        font-size: 1rem !important;
+        font-weight: 500 !important;
+    }
+
+    .icecream-btn:hover {
+        border: 2px solid rgb(0, 255, 221) !important;
+    }
+
+    .btn-a-text {
+        font-size: 1.5rem !important;
+    }
+    .product-header-one {
+        display: none !important;
+    }
+    .product-header-two {
+        display: block !important;
+    }
+
+    .product-image-text-h5 {
+        font-family: 'YesevaOne', serif;
+        font-size: 3.2rem;
+        font-weight: 600 !important;
+        line-height: 1.375;
+        color: rgb(255, 255, 255) !important;
+        text-shadow: 2px 2px 2px rgb(75, 74, 74) !important;
+        text-align: left;
+        text-shadow: 1px 1px 1px #222222 !important;
+        padding: 0 12px;
+    }
+    .product-image-text-p {
+        font-family: 'Bree Serif', serif !important;
+        text-align: justify !important;
+        font-weight: 500 !important;
+        font-size: 1.2rem;
+        color: rgb(0, 0, 0) !important;
+        letter-spacing: 1px !important;
+        line-height: 1.4;
+        padding: 0px 12px;
+    }
+
+    .milk-h5 {
+        text-align: justify !important;
+        font-size: 1.9rem;
+        line-height: 1.75rem;
+        font-family: 'Yeseva One', serif !important;
+        font-weight: 500 !important;
+        line-height: 1.375;
+        color: rgb(255, 255, 255) !important;
+        margin: 0;
+        padding: 0 0 10px 0;
+    }
+    .bakery-h5 {
+        font-size: 1.9rem;
+        font-family: 'YesevaOne', serif;
+        font-weight: 800 !important;
+        line-height: 1.375;
+        color: rgb(255, 255, 255) !important;
+        margin: 0 !important;
+        padding: 6px 0;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 1075px) {
+    .product-header-one {
+        display: block !important;
+        margin-bottom: 0px !important;
+        margin-top: 65px !important;
+    }
+    .col-md-6 {
+        width: -webkit-fill-available;
+    }
+    .product-header-two {
+        display: none !important;
+    }
+}
+@media (min-width: 1060px) and (max-width: 1119px) {
+    .all-product-container {
+        display: block !important;
+        margin: 133px 0 0 -15px;
+    }
+
+    .icecream-btn {
+        height: 33px !important;
+        width: 132px !important;
+    }
+    .product-heading-card3 {
+        padding: 45px 104px 45px 104px !important;
+        display: grid;
+    }
+    .container-product-mg {
+        display: none !important;
+    }
+    .product-flex {
+        display: flex !important;
+        margin-bottom: 10px !important;
+    }
+    .product-heading-card {
+        padding: 0 !important;
+    }
+    .product-heading-card2 {
+        padding: 0 !important;
+    }
+    .product-heading-card3 {
+        padding: 0 !important;
+    }
+    .thumbnail-c {
+        width: 50% !important;
+    }
+    .product-h5 {
+        font-size: 2.5rem !important;
+    }
+    .caption-color1 {
+        background-color: rgb(0, 131, 183) !important;
+    }
+    .caption-color2 {
+        background-color: rgb(235, 112, 115) !important;
+    }
+    .caption-color3 {
+        background: #854382 !important;
+    }
+    .caption-color4 {
+        background-color: rgb(221, 82, 85) !important;
+    }
+    .caption-color5 {
+        background-color: #4cbd85 !important;
+    }
+    .product-btn-one {
+        height: 34px !important;
+        width: 127px !important;
+    }
+    .product-one-para {
+        font-size: 1.3rem !important;
+    }
+    .heading-two {
+        padding: 0 247px !important;
+    }
+    .our-legacy-container {
+        margin-bottom: -28px !important;
+    }
+    .swiper-text {
+        padding: 0 27px !important;
+        position: absolute;
+        top: -18px !important;
+    }
+    .footer-first {
+        display: flex !important;
+    }
+    .story-para {
+        padding: 0px 62px !important;
+    }
+    .card-text {
+        padding: 0px 36px 21px 36px !important;
+    }
+    .cookiea-bread {
+        display: flex !important;
+    }
+    footer {
+        margin-top: -6px !important;
+    }
+    .career-container {
+        margin-bottom: 0px;
+    }
+    .heading-card-quality {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .p-size-1 {
+        padding: 0 !important;
+        width: auto !important;
+    }
+    .heading-persistent {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .service-box {
+        padding: 0 !important;
+    }
+    .persistent-para {
+        padding: 0px !important;
+    }
+    .present-para {
+        padding: 21px 60px 0 60px !important;
+    }
+    .about-card-heading2 {
+        padding: 0 !important;
+    }
+    .p-size-about-card3 {
+        margin: 0 !important;
+    }
+    .p-size-about-c-para {
+        margin: 0 !important;
+        padding: 0 150px !important;
+    }
+    .heading-card {
+        padding: 90px 32px !important;
+        margin: 20px 0 0 0;
+    }
+    .icecreame-heading-card {
+        padding: 62px 31px !important;
+        margin: 35px 0 0 0 !important;
+    }
+    .namkeen-heading-card {
+        padding: 122px 21px !important;
+        text-transform: none;
+    }
+    .milk-heading-card {
+        padding: 60px 49px !important;
+        margin: 19px 0 0 0 !important;
+    }
+    .business-form {
+        display: flex !important;
+    }
+}
+@media (max-width: 1060px) {
+    .all-product-container {
+        display: none !important;
+    }
+    .container-product-mg {
+        display: block !important;
+    }
+    .product-flex {
+        display: flex !;
+    }
+    .milk-heading-card {
+        padding: 19px 14px !important;
+        display: grid;
+    }
+}
+@media (min-width: 1120px) and (max-width: 1350px) {
+    .product-heading-card {
+        padding: 24px 53px 16px 53px !important ;
+        display: grid;
+    }
+    .career-container {
+        margin-bottom: 0px !important;
+    }
+    .card-text {
+        padding: 0px 36px 21px 36px !important;
+    }
+    .product-heading-card2 {
+        padding: 24px 53px 16px 53px !important;
+        display: grid;
+    }
+    .product-heading-card3 {
+        padding: 24px 53px 16px 53px !important;
+        display: grid;
+    }
+    .milk-heading-card {
+        padding: 24px 56px !important;
+        display: grid;
+    }
+    .p-size-about-card3 {
+        margin: 0 !important;
+    }
+    .p-size-about-c-para {
+        margin: 0 !important;
+        padding: 0 150px !important;
+    }
+    .p-size-1 {
+        padding: 0 !important;
+        width: auto !important;
+    }
+
+    .heading-card-quality {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        display: flex;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .heading-persistent {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .service-box {
+        padding: 0 !important;
+    }
+    .persistent-para {
+        padding: 0px !important;
+    }
+    .present-para {
+        padding: 21px 60px 0 60px !important;
+    }
+    .about-card-heading2 {
+        padding: 0 !important;
+    }
+    .heading-card {
+        padding: 90px 32px !important;
+        margin: 20px 0 0 0;
+    }
+    .icecreame-heading-card {
+        padding: 62px 31px !important;
+        margin: 35px 0 0 0 !important;
+    }
+    .namkeen-heading-card {
+        padding: 122px 21px !important;
+        text-transform: none;
+    }
+    .milk-heading-card {
+        padding: 53px 49px !important;
+        margin: 19px 0 0 0 !important;
+    }
+    .business-form {
+        display: flex !important;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1060px) {
+    .business-form {
+        width: 60% !important;
+        margin: 0 181px !important;
+    }
+    .contact-form-btn {
+        width: fit-content;
+        place-content: center;
+        display: block;
+    }
+    .contact-form-btn {
+        width: 100% !important;
+    }
+}
+
+/* navbar */
+
+.navbar-logo-head .logo-navbar {
+    max-height: 20rem;
+    max-width: 200px;
+    transition: max-height 0.5s ease-in-out, max-width 0.5s ease-in-out;
+}
+
+.navbar-shrink .navbar-logo-head .logo-navbar {
+    max-height: 14rem;
+    max-width: 100px;
+}
+
+.navbar-collapse {
+    padding: 60px 0 0 0 !important;
+    transition: max-height 0.3s ease-in-out, max-width 0.5s ease-in-out !important;
+}
+
+.navbar-shrink .navbar-collapse {
+    padding: 30px 0 0 0 !important;
+}
+
+@media (max-width: 1060px) {
+    .navbar-collapse {
+        padding: 0px 0 0 0 !important;
+        transition: max-height 0.3s ease-in-out, max-width 0.5s ease-in-out !important;
+    }
+}
+
+@media (min-width: 1061px) and (max-width: 1080px) {
+    .career-container {
+        margin-bottom: -19px !important;
+    }
+}
+@media (min-width: 669px) and (max-width: 1080px) {
+    #milk-card-img {
+        display: none !important;
+        /* margin-bottom: 82px !important; */
+    }
+    .icecreame-menu-card {
+        margin-bottom: 100px !important;
+    }
+    .milk-product-overfloy-text {
+        margin-bottom: 3px !important;
+    }
+    #milk-icecream-img {
+        display: none !important;
+    }
+    .milk-icecream-img {
+        display: block !important;
+    }
+    #milk-card-img {
+        display: none !important;
+    }
+    .milk-card-img {
+        display: block !important;
+    }
+    .namkeen-menu-card {
+        height: auto !important;
+        margin-bottom: 0 !important;
+    }
+
+    .bakery-menu-card {
+        height: auto !important;
+        margin-bottom: 0 !important;
+    }
+    .milk-product-overfloy-para {
+        margin-bottom: 3px !important;
+    }
+
+    .milk-card-img {
+        display: block !important;
+        height: 125vh !important;
+    }
+    .menu-itmem-container {
+        height: auto !important;
+    }
+
+    .milk-overfloy-para {
+        margin: 0 !important;
+        padding-bottom: 5px !important;
+    }
+    .namkeen-overlap {
+        padding: 7px 25px !important;
+    }
+    .milk-product-menu-card {
+        height: auto !important;
+        margin-bottom: 0px !important;
+    }
+    .milk-product-card {
+        height: auto !important;
+        padding-right: 0px !important;
+    }
+}

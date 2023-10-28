@@ -1,0 +1,305 @@
+<%- include('../layout/partials/messages.ejs') %>
+
+
+    <div class="tableContainer">
+        .
+
+        <div class="container">
+            <div class="col-md-12">
+                <div class="text-center">
+                    <h3 class="table-heading">Application Recieved List Data - <%= row.length %>
+                    </h3>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container">
+            <div class="col-md-12">
+                <div class="col-md-12   ">
+                    <!-- Table -->
+                    <div class="table-wrapper">
+                        <div class="table-title">
+                            <div class="row">
+
+                                <div class="col-sm-10">
+                                    <a href="/career/create-profile" type="button" class="btn-sm btn-info add-new"><i
+                                            class="fa fa-plus"></i> Add New</a>
+                                    <button id="export" class="btn btn-primary"> <i class="bi bi-download"></i>
+
+                                    </button>
+
+                                </div>
+
+                                <div class="col-sm-2">
+                                    <a href="javascript:history.back()" class="back" id=""><span
+                                            class='bi bi-arrow-left-circle-fill'></span> Back</a>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="table-container-1">
+                            <div class="table-responsive">
+                                <table class="table table-bordered" id="table">
+                                    <thead>
+                                        <tr class="thead">
+                                            <!-- <th scope="col">Action</th> -->
+                                            <th scope="col">#Id</th>
+                                            <th scope="col">Fist Name</th>
+                                            <th scope="col">Middle Name</th>
+                                            <th scope="col">Last Name</th>
+                                            <th scope="col">DOB</th>
+                                            <th scope="col">Marital Status</th>
+                                            <th scope="col">Email</th>
+                                            <th scope="col">Gender</th>
+                                            <th scope="col">Mobile No.</th>
+                                            <th scope="col">Local Address</th>
+                                            <th scope="col">Permanent Address</th>
+                                            <th scope="col">SSC School</th>
+                                            <th scope="col">SSC Pass Year</th>
+                                            <th scope="col">SSC Grade(%)</th>
+                                            <th scope="col">HSC School</th>
+                                            <th scope="col">HSC Pass Year</th>
+                                            <th scope="col">HSC Grade(%)</th>
+                                            <th scope="col">Graduation School</th>
+                                            <th scope="col">Graduation Pass Year</th>
+                                            <th scope="col">Graduation Grade(%)</th>
+                                            <th scope="col">Post Graduation School</th>
+                                            <th scope="col">Post Graduation Pass Year</th>
+                                            <th scope="col">Post Graduation Grade(%)</th>
+                                            <th scope="col">Current Organization</th>
+                                            <th scope="col">Current Position</th>
+                                            <th scope="col">Current DOJ</th>
+                                            <th scope="col">Current DOL</th>
+                                            <th scope="col">Current Reason For Job Change</th>
+                                            <th scope="col">Previous Organization 1</th>
+                                            <th scope="col">Previous Position 1</th>
+                                            <th scope="col">Previous DOJ 1</th>
+                                            <th scope="col">Previous DOL 1</th>
+                                            <th scope="col">Previous Reason For Job Change 1 </th>
+                                            <th scope="col">Previous Organization 2</th>
+                                            <th scope="col">Previous Position 2</th>
+                                            <th scope="col">Previous DOJ 2</th>
+                                            <th scope="col">Previous DOL 2</th>
+                                            <th scope="col">Previous Reason For Job Change 2</th>
+                                            <th scope="col">Previous Organization 3</th>
+                                            <th scope="col">Previous Position 3</th>
+                                            <th scope="col">Previous DOJ 3</th>
+                                            <th scope="col">Previous DOL 3</th>
+                                            <th scope="col">Previous Reason For Job Change 3</th>
+                                            <th scope="col">Previous Organization 4</th>
+                                            <th scope="col">Previous Position 4</th>
+                                            <th scope="col">Previous DOJ 4</th>
+                                            <th scope="col">Previous DOL 4</th>
+                                            <th scope="col">Previous Reason For Job Change 4</th>
+                                            <th scope="col">Reference Name</th>
+                                            <th scope="col">Reference Contact</th>
+                                            <th scope="col">Reference Email</th>
+                                            <th scope="col">Reference Remarks</th>
+                                            <th scope="col">Reference Name 1</th>
+                                            <th scope="col">Reference Contact 1</th>
+                                            <th scope="col">Reference Email 1</th>
+                                            <th scope="col">Reference Remarks 1</th>
+                                            <th scope="col">Created Date</th>
+
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <% row.reverse() %>
+                                            <% if(row.length !==0) { var i=1; row.forEach(function(data) { %>
+                                                <tr class="tbody">
+                                                    <!-- <td>
+                                                        <a href="/dashboard/view-table-data/<%= data.id %>/delete"
+                                                            class="delete" title="Delete" data-toggle="tooltip">
+                                                            <em class="fa fa-trash"></em>
+                                                        </a>
+                                                    </td> -->
+                                                    <td>
+                                                        <%= data.id %>
+                                                    </td>
+                                                    <td>
+                                                        <%= data.first_name %>
+                                                    </td>
+                                                    <td>
+                                                        <%= data.middle_name %>
+                                                    </td>
+                                                    <td>
+                                                        <%= data.last_name %>
+                                                    </td>
+                                                    <td>
+                                                        <%= data.dob %>
+                                                    </td>
+                                                    <td>
+                                                        <%= data.marital_status %>
+                                                    </td>
+                                                    <td>
+                                                        <%= data.email %>
+                                                    </td>
+                                                    <td>
+                                                        <%= data.gender %>
+                                                    </td>
+                                                    <td>
+                                                        <%= data.mobile_number %>
+                                                    </td>
+                                                    <td>
+                                                        <%= data.local_address %>
+                                                    </td>
+                                                    <td>
+                                                        <%= data.permanent_address %>
+                                                    </td>
+                                                    <td>
+                                                        <%= data.ssc_school %>
+                                                    </td>
+                                                    <td>
+                                                        <%= data.ssc_pass_year %>
+                                                    </td>
+                                                    <td>
+                                                        <%= data.ssc_grade %>
+                                                    </td>
+                                                    <td>
+                                                        <%= data.hsc_school %>
+                                                    </td>
+                                                    <td>
+                                                        <%= data.hsc_pass_year %>
+                                                    </td>
+                                                    <td>
+                                                        <%= data.hsc_grade %>
+                                                    </td>
+                                                    <td>
+                                                        <%= data.graduate_school %>
+                                                    </td>
+                                                    <td>
+                                                        <%= data.graduate_pass_year %>
+                                                    </td>
+                                                    <td>
+                                                        <%= data.graduate_grade %>
+                                                    </td>
+                                                    <td>
+                                                        <%= data.pgraduate_school %>
+                                                    </td>
+                                                    <td>
+                                                        <%= data.pgraduate_pass_year %>
+                                                    </td>
+                                                    <td>
+                                                        <%= data.pgraduate_grade %>
+                                                    </td>
+                                                    <td>
+                                                        <%= data.company_name1 %>
+                                                    </td>
+                                                    <td>
+                                                        <%= data.position1 %>
+                                                    </td>
+                                                    <td>
+                                                        <%= data.doj1 %>
+                                                    </td>
+                                                    <td>
+                                                        <%= data.dol1 %>
+                                                    </td>
+                                                    <td>
+                                                        <%= data.reason_fjc1 %>
+                                                    </td>
+                                                    <td>
+                                                        <%= data.company_name2 %>
+                                                    </td>
+                                                    <td>
+                                                        <%= data.position2 %>
+                                                    </td>
+                                                    <td>
+                                                        <%= data.doj2 %>
+                                                    </td>
+                                                    <td>
+                                                        <%= data.dol2 %>
+                                                    </td>
+                                                    <td>
+                                                        <%= data.reason_fjc2 %>
+                                                    </td>
+                                                    <td>
+                                                        <%= data.company_name3 %>
+                                                    </td>
+                                                    <td>
+                                                        <%= data.position3 %>
+                                                    </td>
+                                                    <td>
+                                                        <%= data.doj3 %>
+                                                    </td>
+                                                    <td>
+                                                        <%= data.dol3 %>
+                                                    </td>
+                                                    <td>
+                                                        <%= data.reason_fjc3 %>
+                                                    </td>
+                                                    <td>
+                                                        <%= data.company_name4 %>
+                                                    </td>
+                                                    <td>
+                                                        <%= data.position4 %>
+                                                    </td>
+                                                    <td>
+                                                        <%= data.doj4 %>
+                                                    </td>
+                                                    <td>
+                                                        <%= data.dol4 %>
+                                                    </td>
+                                                    <td>
+                                                        <%= data.reason_fjc4 %>
+                                                    </td>
+                                                    <td>
+                                                        <%= data.company_name5 %>
+                                                    </td>
+                                                    <td>
+                                                        <%= data.position5 %>
+                                                    </td>
+                                                    <td>
+                                                        <%= data.doj5 %>
+                                                    </td>
+                                                    <td>
+                                                        <%= data.dol5 %>
+                                                    </td>
+                                                    <td>
+                                                        <%= data.reason_fjc5 %>
+                                                    </td>
+                                                    <td>
+                                                        <%= data.person_name1 %>
+                                                    </td>
+                                                    <td>
+                                                        <%= data.contact_number1 %>
+                                                    </td>
+                                                    <td>
+                                                        <%= data.email1 %>
+                                                    </td>
+                                                    <td>
+                                                        <%= data.remarks1 %>
+                                                    </td>
+                                                    <td>
+                                                        <%= data.person_name2 %>
+                                                    </td>
+                                                    <td>
+                                                        <%= data.contact_number2 %>
+                                                    </td>
+                                                    <td>
+                                                        <%= data.email2 %>
+                                                    </td>
+                                                    <td>
+                                                        <%= data.remarks2 %>
+                                                    </td>
+                                                    <td>
+                                                        <%= data.created_at %>
+                                                    </td>
+
+                                                </tr>
+                                                <% i++; }) %>
+                                                    <% } else { %>
+                                                        <tr class="text-center ">
+                                                            <td colspan="60">No Record Found</td>
+                                                        </tr>
+                                                        <% } %>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

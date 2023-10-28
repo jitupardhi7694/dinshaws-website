@@ -1,0 +1,109 @@
+<%- include('./layout/partials/messages.ejs') %>
+
+   <div class="business-container">
+      <div class="card text-white">
+         <img src="../assets/static/images/contact us-02.jpg" class="business-card-img" alt="..." />
+      </div>
+
+      <div class="business-contact-form" id="message">
+         <form action="" method="post">
+            <div class="contact-form-heading">
+               <h2 class="contact-form-h2" id="business-enquiry">
+                  Got any queries or questions? <br />
+                  We’ll be happy to help!
+               </h2>
+            </div>
+            <div class="container">
+               <!-- <form action="" method="post"> -->
+               <div class="col-md-12   business-form">
+                  <div class="col-md-6">
+                     <div class="contact-form-row1">
+                        <div class="row">
+                           <div class="contact-form-input">
+                              <input type="text" class="form-control  contact-input" name="name" placeholder="Name*"
+                                 value="<%= typeof name != 'undefined' ? name : '' %>" aria-label="Name*"
+                                 oninput="this.value = this.value.toUpperCase();" required />
+                           </div>
+                           <div class="contact-form-input">
+                              <input type="email" class="form-control contact-input"
+                                 value="<%= typeof email != 'undefined' ? email : '' %>" name="email"
+                                 placeholder="Email*" aria-label="Email" required />
+                           </div>
+                           <div class="contact-form-input">
+                              <input type="number" class="form-control contact-input" placeholder="Mobile*"
+                                 name="mobile" aria-label="Mobile"
+                                 value="<%= typeof mobile != 'undefined' ? mobile : '' %>"
+                                 oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+                                 maxLength="10" required />
+                           </div>
+                           <div class="contact-form-input">
+                              <select id="inputState" name="purpose"
+                                 value="<%= typeof purpose != 'undefined' ? purpose : '' %>"
+                                 class="form-select contact-select" required>
+                                 <option selected disabled value="">Purpose*</option>
+                                 <option value="1">Feedback/Suggestions</option>
+                                 <option value="2">Trade Enquiry</option>
+                              </select>
+                           </div>
+
+                           <div class="contact-form-input">
+                              <input type="text" class="form-control  contact-input" name="location"
+                                 value="<%= typeof location != 'undefined' ? location : '' %>" placeholder="City/Town*"
+                                 oninput="this.value = this.value.toUpperCase();" aria-label="City/Town" required />
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-6">
+                     <div class="contact-form-row2">
+                        <div class="row">
+                           <div class="contact-form-input2">
+                              <div class="form-floating">
+                                 <textarea class="form-control  contact-input2" placeholder="Message*" id="message"
+                                    name="message" oninput="this.value = this.value.toUpperCase();"
+                                    required><%= typeof message != 'undefined' ? message : '' %></textarea>
+                              </div>
+                           </div>
+                           <div class="g-recaptcha" data-sitekey="6LcAWucnAAAAAPnqeooGcV0K3f2axn4VauSfpCIm"></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="contact-form-btn">
+                  <button type="submit" class="btn btn-rounded  contact-btn">Submit</button>
+               </div>
+            </div>
+         </form>
+      </div>
+      <div class="contact-body-back" id="contact-us">
+         <div class="card text-white">
+
+            <div class="contact-back">
+               <div class="contact-overlay">
+                  <h5 class="contact-img-title wow fadeInLeft" data-wow-delay="0.2s">Contact Us</h5>
+                  <div class="head-office-container">
+                     <h5 class="head-office-heading">Head Office</h5>
+                     <p class="head-office-para">
+                        Dinshaw’s Dairy Foods Pvt. Ltd. Gorewada Road, Borgaon, Gittikhadan, Nagpur – 440013,
+                        Maharashtra,
+                        India
+                     </p>
+                  </div>
+                  <div class="head-office-container">
+                     <h5 class="corporate-heading">Corporate Office</h5>
+                     <p class="head-office-para">
+                        Dinshaw’s GDL Office Banaz, Byramji Town, Nagpur – 440013, Maharashtra, India
+                     </p>
+                     <p class="head-office-para">
+                        Toll-free No.: 1800-120-9999 (All days from 9 am to 6 pm except Sundays & Public Holidays)
+                     </p>
+                     <p class="head-office-para">Email: customerdelight@dinshaws.co.in</p>
+                  </div>
+               </div>
+            </div>
+            <img src="../assets/static/images/contact us-01.jpg" class="contact-card-img" alt="..." />
+            <img src="../assets/static/images/contact-mobileview-02.png" class="contact-card-img2" alt="...">
+            <img src="../assets/static/images/office-image 2.png" class="contact-card-img3" alt="...">
+         </div>
+      </div>
+   </div>

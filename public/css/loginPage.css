@@ -1,0 +1,427 @@
+body {
+    background-color: white;
+}
+
+.modal-body {
+    padding: 0 0 0 10px !important;
+}
+
+.alert {
+    padding: 7px !important;
+}
+.messages-alert {
+    position: relative;
+    top: 153px !important;
+    right: 47px !important;
+    /* width: 26%;
+    font-size: 12px; */
+}
+.text-blue {
+    color: #0d6efd !important;
+    font-size: 12px !important;
+}
+.bodyLogin {
+    padding-top: 196px;
+    padding-bottom: 60px;
+}
+.bodyEnquiry {
+    padding-top: 127px;
+    padding-bottom: 18px;
+}
+.flex-footer {
+    display: flex !important;
+}
+.panel-login {
+    border-color: #ccc;
+    -webkit-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.2);
+}
+.panel-login > .panel-heading {
+    color: #00415d;
+    background-color: #fff;
+    border-color: #fff;
+    text-align: center;
+}
+.panel-login > .panel-footer {
+    color: #00415d;
+    background-color: #fff;
+    border-color: #fff;
+    text-align: center;
+    margin-top: -16px;
+}
+.panel-login > .panel-heading a {
+    text-decoration: none;
+    color: #666;
+    font-weight: bold;
+    font-size: 15px;
+    -webkit-transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+}
+.panel-login > .panel-footer a {
+    text-decoration: none;
+    color: #666;
+    font-weight: bold;
+    font-size: 15px;
+    -webkit-transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+}
+.panel-login > .panel-heading a.active-login {
+    color: #9852af !important;
+    font-size: 26px !important;
+}
+.panel-login > .panel-heading a.active-register {
+    color: #9852af !important;
+    font-size: 26px !important;
+}
+.panel-login > .panel-footer a.active-login {
+    color: #0d6efd !important;
+    font-size: 15px !important;
+}
+.panel-login > .panel-footer a.active-register {
+    color: #0d6efd !important;
+    font-size: 15px !important;
+}
+.login-form-link {
+    color: #9852af !important;
+}
+.panel-login > .panel-heading hr {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    clear: both;
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(
+        left,
+        rgba(0, 0, 0, 0),
+        rgba(0, 0, 0, 0.15),
+        rgba(0, 0, 0, 0)
+    );
+    background-image: -moz-linear-gradient(
+        left,
+        rgba(0, 0, 0, 0),
+        rgba(0, 0, 0, 0.15),
+        rgba(0, 0, 0, 0)
+    );
+    background-image: -ms-linear-gradient(
+        left,
+        rgba(0, 0, 0, 0),
+        rgba(0, 0, 0, 0.15),
+        rgba(0, 0, 0, 0)
+    );
+    background-image: -o-linear-gradient(
+        left,
+        rgba(0, 0, 0, 0),
+        rgba(0, 0, 0, 0.15),
+        rgba(0, 0, 0, 0)
+    );
+}
+.panel-login > .panel-footer hr {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    clear: both;
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(
+        left,
+        rgba(0, 0, 0, 0),
+        rgba(0, 0, 0, 0.15),
+        rgba(0, 0, 0, 0)
+    );
+    background-image: -moz-linear-gradient(
+        left,
+        rgba(0, 0, 0, 0),
+        rgba(0, 0, 0, 0.15),
+        rgba(0, 0, 0, 0)
+    );
+    background-image: -ms-linear-gradient(
+        left,
+        rgba(0, 0, 0, 0),
+        rgba(0, 0, 0, 0.15),
+        rgba(0, 0, 0, 0)
+    );
+    background-image: -o-linear-gradient(
+        left,
+        rgba(0, 0, 0, 0),
+        rgba(0, 0, 0, 0.15),
+        rgba(0, 0, 0, 0)
+    );
+}
+.panel-login input[type='text'],
+.panel-login input[type='email'],
+.panel-login input[type='password'] {
+    height: 45px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    -webkit-transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+}
+.panel-login input:hover,
+.panel-login input:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border-color: #ccc;
+}
+.btn-login {
+    background-color: #59b2e0;
+    outline: none;
+    color: #fff;
+    font-size: 14px;
+    height: auto;
+    font-weight: normal;
+    padding: 14px 0;
+    text-transform: uppercase;
+    border-color: #59b2e6;
+}
+.btn-login:hover,
+.btn-login:focus {
+    color: #fff;
+    background-color: #53a3cd;
+    border-color: #53a3cd;
+}
+.forgot-password {
+    text-decoration: underline;
+    color: #888;
+}
+.forgot-password:hover,
+.forgot-password:focus {
+    text-decoration: underline;
+    color: #666;
+}
+
+.btn-register {
+    background-color: #1cb94e;
+    outline: none;
+    color: #fff;
+    font-size: 14px;
+    height: auto;
+    font-weight: normal;
+    padding: 14px 0;
+    text-transform: uppercase;
+    border-color: #1cb94a;
+}
+.btn-register:hover,
+.btn-register:focus {
+    color: #fff;
+    background-color: #1ca347;
+    border-color: #1ca347;
+}
+
+/*
+    Note: It is best to use a less version of this file ( see http://css2less.cc
+    For the media queries use @screen-sm-min instead of 768px.
+    For .omb_spanOr use @body-bg instead of white.
+*/
+
+/* dashboard css  */
+
+.circle-tile {
+    margin-bottom: 15px;
+    text-align: center;
+}
+.circle-tile-heading {
+    border: 3px solid rgba(255, 255, 255, 0.3);
+    border-radius: 100%;
+    color: #ffffff;
+    height: 80px;
+    margin: 0 auto -40px;
+    position: relative;
+    transition: all 0.3s ease-in-out 0s;
+    width: 80px;
+}
+.circle-tile-heading .fa {
+    line-height: 80px;
+}
+.circle-tile-content {
+    padding-top: 50px;
+}
+.circle-tile-number {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1;
+    padding: 5px 0 15px;
+}
+.circle-tile-description {
+    text-transform: uppercase;
+}
+.circle-tile-footer {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: rgba(255, 255, 255, 0.5);
+    display: block;
+    padding: 5px;
+    transition: all 0.3s ease-in-out 0s;
+}
+.circle-tile-footer:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+}
+.circle-tile-heading.dark-blue:hover {
+    background-color: #2e4154;
+}
+.circle-tile-heading.green:hover {
+    background-color: #138f77;
+}
+.circle-tile-heading.orange:hover {
+    background-color: #da8c10;
+}
+.circle-tile-heading.blue:hover {
+    background-color: #2473a6;
+}
+.circle-tile-heading.red:hover {
+    background-color: #cf4435;
+}
+.circle-tile-heading.purple:hover {
+    background-color: #7f3d9b;
+}
+.tile-img {
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.9);
+}
+
+.dark-blue {
+    background-color: #34495e;
+}
+.green {
+    background-color: #16a085;
+}
+.blue {
+    background-color: #2980b9;
+}
+.orange {
+    background-color: #f39c12;
+}
+.red {
+    background-color: #e74c3c;
+}
+.purple {
+    background-color: #8e44ad;
+}
+.dark-gray {
+    background-color: #7f8c8d;
+}
+.gray {
+    background-color: #95a5a6;
+}
+.light-gray {
+    background-color: #bdc3c7;
+}
+.yellow {
+    background-color: #f1c40f;
+}
+.text-dark-blue {
+    color: #34495e;
+}
+.text-green {
+    color: #16a085;
+}
+.text-blue {
+    color: #2980b9;
+}
+.text-orange {
+    color: #f39c12;
+}
+.text-red {
+    color: #e74c3c;
+}
+.text-purple {
+    color: #8e44ad;
+}
+.text-faded {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* dashboard css  */
+
+@media (min-width: 768px) {
+    .omb_row-sm-offset-3 div:first-child[class*='col-'] {
+        margin-left: 25%;
+    }
+}
+
+.omb_login .omb_authTitle {
+    text-align: center;
+    line-height: 300%;
+}
+
+.omb_login .omb_socialButtons a {
+    color: white;
+    opacity: 0.9;
+}
+
+.omb_login .omb_socialButtons a:hover {
+    color: white;
+    opacity: 1;
+}
+.omb_login .omb_socialButtons .omb_btn-facebook {
+    background: #3b5998;
+}
+.omb_login .omb_socialButtons .omb_btn-twitter {
+    background: #00aced;
+}
+.omb_login .omb_socialButtons .omb_btn-google {
+    background: #c32f10;
+}
+
+.omb_login .omb_loginOr {
+    position: relative;
+    font-size: 1.5em;
+    color: #aaa;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+.omb_login .omb_loginOr .omb_hrOr {
+    background-color: #cdcdcd;
+    height: 1px;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+.omb_login .omb_loginOr .omb_spanOr {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: -0.6em;
+    margin-left: -1.5em;
+    background-color: white;
+    width: 3em;
+    text-align: center;
+}
+
+.omb_login .omb_loginForm .input-group.i {
+    width: 2em;
+}
+.omb_login .omb_loginForm .help-block {
+    color: red;
+}
+
+@media (min-width: 768px) {
+    .omb_login .omb_forgotPwd {
+        text-align: right;
+        margin-top: 10px;
+    }
+}
+@media (min-width: 360px) and (max-width: 760px) {
+    .bodyLogin {
+        padding-top: 82px;
+        padding-bottom: 14px;
+    }
+    .messages-alert {
+        position: absolute;
+        top: 59px !important;
+        right: 0px !important;
+    }
+    .alert-success {
+        font-size: 13px !important;
+    }
+    .messages-alert {
+        position: absolute;
+        top: 67px !important;
+        right: 36px !important;
+    }
+}

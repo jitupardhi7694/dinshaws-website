@@ -1,0 +1,94 @@
+<%- include('../layout/partials/messages.ejs') %>
+
+
+    <div class="tableContainer">
+        .
+
+        <div class="container">
+            <div class="col-md-12">
+                <div class="text-center">
+                    <h3 class="table-heading">Job Opening Table</h3>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container">
+            <div class="col-md-12">
+                <div class="col-md-12">
+                    <!-- Table -->
+                    <div class="table-wrapper">
+                        <div class="table-title">
+                            <div class="row">
+
+                                <div class="col-sm-10">
+                                    <a href="/job-opening" type="button" class="btn-sm btn-info add-new"><i
+                                            class="fa fa-plus"></i> Add
+                                        New</a>
+                                </div>
+                                <div class="col-sm-2">
+                                    <a href="javascript:history.back()" class="back" id=""><span
+                                            class='bi bi-arrow-left-circle-fill'></span>
+                                        Back</a>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="table-container-1">
+                            <div class="table-responsive">
+                                <table class="table table-bordered">
+                                    <thead>
+                                        <tr class="thead">
+                                            <th scope="col">Action</th>
+                                            <th scope="col">#Id</th>
+                                            <th scope="col">Department</th>
+                                            <th scope="col">Description</th>
+                                            <th scope="col">Location</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <% registerJob.reverse() %>
+                                            <% if(registerJob.length !==0) { var i=1; registerJob.forEach(function(data)
+                                                { %>
+                                                <tr class="tbody">
+                                                    <td>
+                                                        <a href="/job-opening/edit/<%= data.job_id %>" class="edit"
+                                                            title="Edit" data-toggle="tooltip">
+                                                            <em class="fa fa-pencil"></em>
+                                                        </a>
+
+
+                                                        <a href="/job-opening/jobOpeningTable/<%= data.job_id %>/delete"
+                                                            class="delete" title="Delete" data-toggle="tooltip">
+                                                            <em class="fa fa-trash"></em>
+                                                        </a>
+                                                    </td>
+                                                    <td>
+                                                        <%= data.job_id %>
+                                                    </td>
+                                                    <td>
+                                                        <%= data.department_id %>
+                                                    </td>
+                                                    <td>
+                                                        <%= data.description %>
+                                                    </td>
+                                                    <td>
+                                                        <%= data.location %>
+                                                    </td>
+                                                </tr>
+                                                <% i++; }) %>
+                                                    <% } else { %>
+                                                        <tr class="text-center">
+                                                            <td colspan="5">No Record Found</td>
+                                                        </tr>
+                                                        <% } %>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

@@ -1,0 +1,72 @@
+<%- include('../layout/partials/messages.ejs') %>
+    <div class="bodyLogin">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <div class="panel panel-login">
+                        <div class="panel-heading ">
+                            <div class="row">
+
+
+                                <a class="active-register" id="register-form-link"><span
+                                        class='bi bi-house-door-fill'></span> Department Master</a>
+
+                            </div>
+                            <hr>
+                        </div>
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-lg-12">
+
+                                    <form id="register-form" action="" method="post" role="form">
+                                        <input type="text" name="id"
+                                            value="<%= typeof rows?.id != 'undefined' ? rows?.id : '' %>" id="id"
+                                            hidden>
+                                        <div class="form-group">
+                                            <input type="text" name="name" id="name" tabindex="1"
+                                                class="form-control   text-uppercase   form-control-input"
+                                                value="<%= typeof rows?.name != 'undefined' ? rows?.name : '' %>"
+                                                placeholder="Enter Department Name" value="">
+                                        </div>
+
+
+                                        <div class="form-group">
+                                            <div class="row">
+
+                                                <div class="col-sm-6 col-sm-offset-3">
+
+
+                                                    <input type="submit" name="register-submit" id="register-submit"
+                                                        tabindex="4"
+                                                        class="form-control   text-uppercase    btn btn-register"
+                                                        value="Submit">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </form>
+
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="panel-footer">
+                            <div class="row">
+
+
+
+                                <a href="javascript:history.back()" class="active-login" id="login-form-link"><span
+                                        class='bi bi-arrow-left-circle-fill'></span> Back</a>
+
+
+
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>

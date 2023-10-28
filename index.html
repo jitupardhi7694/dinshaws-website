@@ -1,0 +1,117 @@
+<nav class="navbar navbar-custom navbar-fixed-top navabr-din" role="navigation">
+   <div class="container navigation container-navbar">
+      <div class="navbar-header">
+         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+            <i class="fa fa-bars"></i>
+         </button>
+         <a class="navbar-brand navbar-logo-head" href="/">
+            <img src="/dinshaws-logo-footer.jpg" alt="logo Dinshaws" class="logo-navbar">
+         </a>
+      </div>
+
+      <div class="navbar-content navbar-first">
+         <div class="collapse navbar-collapse navbar-main-collapse">
+            <ul class="nav navbar-nav navbar-right" id="content-colour">
+               <li class="active"><a href="/about-us" target="_blank">About Us</a></li>
+               <li class="dropdown active">
+                  <a href="/product" class="nav-link dropdown-toggle" data-toggle="dropdown">
+                     Products <b class="caret"></b>
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-right">
+                     <li><a class="drop-menu" href="/product">Products</a></li>
+                     <li><a class="drop-menu" href="/product/milk">Milk</a></li>
+                     <li><a class="drop-menu" href="/product/milk-product">Milk Product</a></li>
+                     <li><a class="drop-menu" href="/product/icecream">Ice Cream</a></li>
+                     <li><a class="drop-menu" href="/product/bakery">Bakery</a></li>
+                     <li><a class="drop-menu" href="/product/namkeen">Namkeen</a></li>
+                  </ul>
+               </li>
+               <li class="active"><a href="/Our-Legacy">Our Legacy</a></li>
+               <li class="active"><a href="/career">Careers</a></li>
+               <li class="active"><a href="/business-enquiry">Business Enquiry</a></li>
+               <li class="Search">
+                  <form class="navbar-form" role="search">
+                     <div class="form-group">
+                        <input class="form-control search-box" type="text" placeholder="Search" aria-label="Search">
+                     </div>
+                  </form>
+               </li>
+            </ul>
+         </div>
+      </div>
+
+      <div class="navbar-content navbar-second">
+         <div class="collapse navbar-collapse navbar-main-collapse">
+            <ul class="nav navbar-nav navbar-right text-center" id="content-colour">
+               <li class="active"><a class="active-text" href="/about-us">About Us</a></li>
+               <li class="active"><a class="active-text" href="/product">Products</a></li>
+               <li class="active"><a class="active-text" href="/Our-Legacy">Our Legacy</a></li>
+               <li class="active"><a class="active-text" href="/career">Careers</a></li>
+               <li class="active"><a class="active-text" href="/business-enquiry">Business Enquiry</a></li>
+            </ul>
+         </div>
+      </div>
+   </div>
+</nav>
+
+<style>
+   .navbar-logo-head .logo-navbar {
+      max-height: 22rem;
+      max-width: 200px;
+      transition: max-height 0.5s ease-in-out, max-width 0.5s ease-in-out;
+   }
+
+   .navbar-shrink .navbar-logo-head .logo-navbar {
+      max-height: 14rem;
+      max-width: 100px;
+   }
+
+
+   .navbar-collapse {
+
+      padding: 80px 0 0 0 !important;
+      transition: max-height 0.3s ease-in-out, max-width 0.5s ease-in-out !important;
+   }
+
+   .navbar-shrink .navbar-collapse {
+
+      padding: 30px 0 0 0 !important;
+   }
+
+   @media (max-width: 1060px) {
+      .navbar-collapse {
+
+         padding: 0px 0 0 0 !important;
+         transition: max-height 0.3s ease-in-out, max-width 0.5s ease-in-out !important;
+      }
+   }
+</style>
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+   $(window).scroll(function () {
+      if ($(document).scrollTop() > 50) {
+         $('.navbar').addClass('navbar-shrink');
+      } else {
+         $('.navbar').removeClass('navbar-shrink');
+      }
+   });
+</script>
+
+<script>
+
+   var navbar = document.querySelector('.navbar');
+   var navbarHeight = navbar.offsetHeight;
+
+   window.addEventListener('scroll', function () {
+      var scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+
+      if (scrollPosition >= navbarHeight) {
+         navbar.classList.add('navbar-small');
+      } else {
+         navbar.classList.remove('navbar-small');
+      }
+   });
+
+</script>

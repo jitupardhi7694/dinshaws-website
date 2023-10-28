@@ -1,0 +1,41 @@
+{
+   "name": "dinshaws-website",
+   "version": "1.0.0",
+   "description": "",
+   "main": "app.js",
+   "scripts": {
+      "start": "node app.js",
+      "dev": "nodemon app.js"
+   },
+   "author": "jitendra",
+   "license": "ISC",
+   "dependencies": {
+      "aos": "^2.3.4",
+      "axios": "^1.5.0",
+      "bcryptjs": "^2.4.3",
+      "body-parser": "^1.20.1",
+      "connect-flash": "^0.1.1",
+      "crypto": "^1.0.1",
+      "dotenv": "^16.3.1",
+      "ejs": "^3.1.8",
+      "ejs-include-regex": "^1.0.0",
+      "ejs-lint": "^2.0.0",
+      "express": "^4.18.2",
+      "express-ejs-layouts": "^2.5.1",
+      "express-mysql-session": "^3.0.0",
+      "express-rate-limit": "^6.7.0",
+      "express-session": "^1.17.3",
+      "express-validator": "^7.0.1",
+      "jsonwebtoken": "^9.0.0",
+      "mysql2": "^3.3.3",
+      "nodemailer": "^6.9.3",
+      "passport": "^0.6.0",
+      "passport-local": "^1.0.0",
+      "path": "^0.12.7",
+      "sequelize": "^6.32.0",
+      "winston": "^3.9.0"
+   },
+   "devDependencies": {
+      "nodemon": "^3.0.1"
+   }
+}

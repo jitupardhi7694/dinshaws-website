@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Rubik&family=Signika+Negative&display=swap');
+
+.resume-background {
+    background-color: #854382 !important;
+    height: auto !important;
+    padding: 100px !important;
+    padding-top: 150px !important;
+}
+.dob-margin {
+    margin-left: -14px !important   ;
+    margin-right: 14px !important;
+}
+/* .dob-label {
+} */
+.DOB {
+    margin-left: 49px !important;
+    width: 24vw !important;
+    margin-top: -33px;
+}
+.resume-container {
+    background-color: rgb(66, 175, 121) !important;
+    padding-bottom: 50px !important;
+    border-radius: 20px !important;
+}
+.resume-form-heading {
+    color: #ffffff !important;
+    font-family: 'Yeseva One', cursive !important;
+    padding: 10px 0;
+    place-items: center;
+    display: flow-root;
+}
+
+.form-heading-text {
+    color: #000000 !important;
+    font-family: 'Yeseva One', cursive !important;
+    font-size: 1.4rem !important;
+    font-weight: 500 !important;
+}
+
+.resume-heading {
+    font-size: 2.5rem !important;
+    font-family: 'Yeseva One', cursive !important;
+    padding-top: 30px;
+    color: #4b3c3c;
+}
+.work-input-control {
+    width: 19.666%;
+}
+
+.education-heading {
+    padding-left: 30px !important;
+    padding-top: 50px !important;
+    margin-bottom: 15px;
+    font-family: 'Signika Negative', sans-serif !important;
+    font-weight: 700 !important;
+    color: #854382 !important;
+    font-size: 1.8rem !important;
+}
+.work-heading {
+    padding-left: 30px !important;
+    padding-top: 50px !important;
+    margin-bottom: 15px;
+    font-family: 'Signika Negative', sans-serif !important;
+    font-weight: 700 !important;
+    color: #854382 !important;
+    font-size: 1.8rem !important;
+}
+.refer-heading {
+    padding-left: 30px !important;
+    padding-top: 50px !important;
+    margin-bottom: 15px;
+    font-family: 'Signika Negative', sans-serif !important;
+    font-weight: 700 !important;
+    color: #854382 !important;
+    font-size: 1.8rem !important;
+}
+.personal-row2 {
+    margin-top: 20px !important;
+}
+.personal-row3 {
+    margin-top: 20px !important;
+}
+.form-input-select {
+    height: 33px !important;
+    width: 100% !important;
+    border: none !important;
+    border-radius: 5px !important;
+}
+.work-container {
+    padding-top: 70px !important;
+}
+.work-container2 {
+    margin-top: -30px !important;
+}
+
+.experience {
+    margin-right: 32px !important;
+}
+.work-input-control-doj {
+    margin-left: 7px !important;
+}
+.work-input-control-dol {
+    margin-left: 13px !important;
+}
+.reference-container {
+    margin-top: -30px !important;
+}
+.work-input {
+    width: 14vw !important;
+}
+.work-input-doj {
+    width: 10vw !important;
+}
+.work-input-dol {
+    width: 10vw !important;
+}
+
+.dol-margin {
+    margin-left: 28px;
+    margin-right: 36px;
+}
+.education-container {
+    margin-top: -40px !important;
+}
+.btn-container {
+    display: grid;
+    place-items: center;
+    padding-top: 44px;
+}
+/* media query  */
+
+/* 
+
+.career-form-heading {
+    color: rgb(255, 241, 44) !important;
+    font-family: 'Yeseva One', cursive !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    font-size: 23px !important;
+} */
+
+@media (max-width: 1060px) {
+    .resume-background {
+        background-color: #854382 !important;
+        height: auto !important;
+        padding-top: 150px !important;
+        padding-left: 15px !important;
+        padding-right: 15px !important  ;
+    }
+    .resume-container {
+        background-color: #d6d6d4;
+        padding-bottom: 50px !important;
+        border-radius: 32px !important;
+    }
+    .resume-form-heading {
+        color: #ffffff !important;
+        padding-top: 23px !important;
+        padding-left: 28px !important;
+        font-family: 'Yeseva One', cursive !important;
+        font-size: 3.2rem;
+        padding-right: 6px;
+    }
+    .work-input {
+        width: 100% !important;
+        margin: 0 0 -8px -11px;
+    }
+    .resume-heading {
+        font-size: 2rem !important;
+        font-family: 'Yeseva One', cursive !important;
+        padding-top: 14px;
+        color: #4b3c3c;
+    }
+
+    .personal-container {
+        min-height: 1px !important;
+        padding-right: 24px !important;
+        padding-left: 0px !important;
+        padding-top: 15px !important;
+    }
+    .personal-row2 {
+        margin-top: 14px !important;
+        padding-left: 1px;
+        padding-top: -3px;
+        padding-right: 24px;
+    }
+    .personal-row3 {
+        margin-top: 14px !important;
+    }
+    .form-input-select {
+        height: 44px !important;
+        /* width: 83.4vw !important; */
+        border: none !important;
+        border-radius: 5px !important;
+    }
+    .select-input-resume {
+        padding-left: 16px !important;
+        padding-top: 18px;
+    }
+    .address-container {
+        padding-left: 10px !important   ;
+    }
+    .address-container {
+        padding-left: 0px !important;
+        padding-right: 24px;
+        padding-top: 1px !important;
+    }
+    .address-input {
+        padding-top: 20px !important;
+    }
+    .address-input {
+        padding-top: 15px !important;
+    }
+    .education-container {
+        margin-top: -59px !important;
+    }
+    .education-heading {
+        padding-left: 16px !important;
+        padding-top: 50px !important;
+        margin-bottom: 15px;
+        font-family: 'Signika Negative', sans-serif !important;
+        font-weight: 700 !important;
+        color: #854382 !important;
+        font-size: 1.5rem !important;
+    }
+    .sub-ed-container {
+        padding-left: 0px !important;
+        padding-right: 24px !important;
+    }
+    .education-input {
+        padding-top: 15px !important;
+    }
+    .btn-group {
+        position: relative !important;
+        display: flex !important;
+        vertical-align: middle !important;
+        height: 32px !important;
+        padding-top: 0 !important;
+        margin-right: 124px;
+    }
+    .reference-container {
+        margin-top: -58px !important;
+        margin-left: -14px !important;
+    }
+    .reference-input {
+        padding-left: 14px !important;
+        padding-right: 24px;
+        padding-top: 16px;
+    }
+    .btn-container {
+        display: grid;
+        place-items: center;
+    }
+    .work-container {
+        padding-top: 8px !important;
+    }
+    .work-container2 {
+        margin-top: -60px !important;
+        margin: 0 10px;
+    }
+    .work-heading {
+        padding-left: 30px !important;
+        padding-top: 24px !important;
+        margin-bottom: 21px;
+        font-family: 'Signika Negative', sans-serif !important;
+        font-weight: 700 !important;
+        color: #854382 !important;
+        font-size: 1.8rem !important;
+    }
+    .DOB {
+        margin-left: 51px !important;
+        width: 62vw !important;
+        margin-top: -37px !important;
+    }
+
+    .doj-margin {
+        margin-left: -25px !important;
+        margin-right: 0px;
+        margin-bottom: 9px;
+    }
+    .dol-margin {
+        margin-left: -24px !important;
+        margin-right: 0px;
+        margin-bottom: -18px;
+    }
+    .work-input-doj {
+        width: 65vw !important;
+    }
+    .work-input-control-doj {
+        margin-left: 34px !important;
+        margin-top: -40px !important;
+    }
+    .work-input-dol {
+        width: 65vw !important;
+    }
+    .work-input-control-dol {
+        margin-left: 34px !important;
+        margin-top: -40px !important;
+    }
+
+    .resume-heading {
+        font-size: 2rem !important;
+        font-family: 'Yeseva One', cursive !important;
+        padding-top: 14px;
+        padding-bottom: 20px;
+    }
+    /* .work-input-control {
+        margin-right: 32px !important;
+        margin-left: -15px !important;
+        padding-bottom: 15px !important;
+    } */
+
+    .work-input-control {
+        place-items: center;
+        width: 100%;
+        display: inline;
+    }
+    .experience {
+        place-items: center;
+        width: 100%;
+    }
+    .input-group {
+        position: relative;
+        display: inline-table !important;
+        border-collapse: separate;
+    }
+}

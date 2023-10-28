@@ -1,0 +1,103 @@
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    /* background: #fff; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100% !important;
+    object-fit: cover;
+}
+
+.swiper-img {
+    position: relative;
+}
+.image-container {
+    overflow: hidden;
+}
+
+.hover-image {
+    transition: transform 0.2s ease-in, -webkit-transform 0.5s ease-in;
+}
+
+.swiper-img:hover .hover-image {
+    transform: scale(1.2);
+}
+
+.swiper-text {
+    position: absolute;
+    top: -57px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: auto;
+    padding: 20px;
+
+    color: #fff; /* set text color to white */
+}
+
+.card-title {
+    text-align: center;
+    color: rgb(219, 82, 57);
+    font-size: 3.5rem;
+}
+
+.swiper-text h5,
+.swiper-text p,
+.swiper-text button {
+    margin: 0; /* remove default margins */
+}
+
+/* .swiper-text h5 {
+    margin-top: 3px; 
+} */
+
+.swiper-text p {
+    max-height: 200px;
+    overflow: auto; /* add overflow to enable scrolling if content overflows */
+}
+
+.swiper-text button {
+    margin-top: 28px;
+    margin-left: -50px;
+}
+
+/* Center the text and button in the swiper */
+.swiper-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+}
+
+/* Adjust the button style */
+.btn-card {
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Add hover effect to the button */
+.btn-card:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+:root {
+    --swiper-theme-color: #000000;
+}

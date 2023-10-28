@@ -1,0 +1,109 @@
+<%- include('../layout/partials/messages.ejs') %>
+    <div class="bodyLogin">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <div class="panel panel-login">
+                        <div class="panel-heading ">
+                            <div class="row">
+
+
+                                <a class="active-register" id="register-form-link"> <i
+                                        class="bi bi-box-arrow-in-right"></i>
+                                    Register</a>
+
+                            </div>
+                            <hr>
+                        </div>
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-lg-12">
+
+                                    <form id="register-form" action="" method="post" role="form">
+                                        <div class="form-group">
+                                            <input type="text" name="id" id="id" hidden>
+                                            <input type="text" name="name" id="name" tabindex="1"
+                                                class="form-control   text-uppercase   form-control-input"
+                                                placeholder="Full Name"
+                                                value="<%= typeof name != 'undefined' ? name : '' %>" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="email" name="email" id="email" tabindex="1"
+                                                class="form-control      form-control-input" placeholder="Email Address"
+                                                value="<%= typeof email != 'undefined' ? email : '' %>" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="password" name="password" id="password" tabindex="2"
+                                                class="form-control      form-control-input"
+                                                value="<%= typeof password != 'undefined' ? password : '' %>"
+                                                placeholder="Password" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="password" name="password2" id="password2" tabindex="2"
+                                                class="form-control  form-control-input"
+                                                value="<%= typeof password2 != 'undefined' ? password2 : '' %>"
+                                                placeholder="Confirm Password" required>
+                                        </div>
+                                        <div class="form-group">
+
+
+                                            <select id="company" name="role_id"
+                                                class="form-control   text-uppercase  form-control-input"
+                                                value="<%= typeof role_id != 'undefined' ? role_id : '' %>" required>
+
+                                                <option class="text-black" disabled selected>Select User Role
+                                                </option>
+
+                                                <% userRoles.forEach(function(role) { %>
+                                                    <option value="<%= role.id %>" <%=selectedRoleName==role.id
+                                                        ? 'selected' : '' %>><%= role.role_name %>
+                                                    </option>
+                                                    <% }) %>
+                                            </select>
+
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="row">
+                                                <div class="col-sm-6 col-sm-offset-3">
+                                                    <input type="submit" name="register-submit" id="register-submit"
+                                                        tabindex="4" class="form-control      btn btn-register"
+                                                        value="Register Now">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </form>
+
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="panel-footer">
+                            <div class="row">
+                                <div class="flex-footer justify-content-center">
+                                    <div class="col-xs-6">
+
+                                        <div class="  links">
+                                            Have An Account?<a href="/user/login" class="active-login"
+                                                id="login-form-link"> Login</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6">
+
+
+                                        <div class="  links">
+                                            Not Active? Resend <a href="/user/sendActivationLink" class="active-login"
+                                                id="login-form-link"> Activation Email</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

@@ -1,0 +1,3349 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap'); */
+body {
+    font-family: QuickSand Book, sans-serif !important;
+    font-weight: 500 !important;
+}
+
+.navbar.navbar-custom .navigation {
+    padding-bottom: 0px !important;
+}
+
+.text-lower {
+    text-transform: lowercase !important;
+}
+
+.border-right {
+    border-right: 1px solid white;
+}
+
+.about-us-main-container {
+    margin-top: 100px;
+}
+
+.about-header-text {
+    position: absolute;
+    padding: 67px 0 0 0;
+}
+
+.carousel {
+    margin: 45px 0 0 0;
+}
+
+.navbar.navbar-custom ul.nav.navbar-nav {
+    display: -webkit-inline-box !important;
+}
+
+.navbar-first {
+    display: grid !important;
+}
+
+.navbar-logo-head {
+    padding-top: -45px !important;
+    padding-left: 119px !important;
+    padding-bottom: 5px !important;
+    margin-left: -90px !important;
+}
+
+.dairy {
+    margin-top: 28px !important;
+}
+
+.namkeen {
+    margin-top: 28px !important;
+}
+
+.justify-content-center {
+    justify-content: center !important;
+}
+
+.justify-content {
+    align-items: center !important;
+    justify-items: center !important;
+}
+
+.thumbnail {
+    box-shadow: 4px 6px 10px 2px gray !important;
+}
+
+.job-name {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: system-ui;
+    justify-content: left !important;
+}
+
+#page-top {
+    /* font-family: 'Roboto Slab', serif !important; */
+    /* font-family: 'Calistoga', cursive !important; */
+    font-family: 'Yeseva One', serif !important;
+    /* font-family: 'Yeseva One', cursive!important; */
+
+    overflow-x: hidden !important;
+    overflow-y: hidden !important;
+}
+
+.home-heading-card {
+    padding: 137px 73px;
+}
+
+.body-container {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+}
+
+/* .logo-navbar {
+    float: left;
+    margin-left: -54px;
+    margin-top: 0px;
+    height: 22rem;
+    width: 140px;
+} */
+.swiper-responsive {
+    display: block !important;
+}
+
+#swiper-responsive {
+    display: none !important;
+}
+
+.col-footer {
+    margin-left: 0;
+}
+
+.foot-grid-card-1 {
+    margin-left: -81px !important;
+}
+
+.home-card-first {
+    display: block !important;
+    height: auto !important;
+}
+
+.certificate1 {
+    display: block !important;
+}
+
+.container-main-about {
+    height: 100% !important;
+    padding-bottom: 42px;
+    margin-left: 40px;
+    width: 100%;
+}
+
+.card-mg {
+    margin-right: -30px !important;
+}
+
+#home-card-first {
+    display: none !important;
+}
+
+.img-responsive {
+    height: auto !important;
+    /* width: 104vw !important; */
+    width: 100% !important;
+}
+
+.logo-footer {
+    float: left !important;
+    margin-left: -22px !important;
+    margin-top: 2px !important;
+    height: 21rem !important;
+    width: 156px !important;
+}
+
+.thumbnail {
+    height: auto !important;
+}
+
+.about-card-heading2 {
+    padding: 26px 75px;
+}
+
+.main-product-about {
+    display: flex;
+}
+
+.font-h5 {
+    font-size: initial !important;
+}
+
+.apply-btn {
+    height: 40px !important;
+    border-radius: 50px !important;
+    text-align: center !important;
+    background-color: #854382 !important;
+    border: none !important;
+    font-size: 1.9rem !important;
+}
+
+.apply-btn-container {
+    place-items: center;
+    display: grid;
+    padding: 30px 0 0 0;
+}
+
+.media-icon {
+    margin-left: -68px !important;
+    margin-top: 430px !important;
+}
+
+.media-icon1 {
+    display: none !important;
+}
+
+/* Custom CSS for scrollable table */
+.table-container-1 {
+    max-height: 400px;
+    /* Adjust the height as needed */
+    overflow-y: auto;
+}
+
+.text-icecreame {
+    margin-top: -56px;
+}
+
+.text-namkeen {
+    margin-top: -56px;
+}
+
+.text-bakery {
+    margin-top: -56px;
+}
+
+.text-dairy {
+    margin-top: -56px;
+}
+
+.navabr-din {
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    height: 123px !important;
+    width: 100% !important;
+    position: fixed !important;
+    display: grid;
+    background-color: #854382 !important;
+}
+
+.navbar-custom.navbar-fixed-top .nav li.active {
+    outline: 0;
+    background: none;
+}
+
+.navabr-din.navbar-small {
+    height: 94px !important;
+    /* small height */
+}
+
+.cookiea-bread {
+    margin-top: -20px !important;
+    margin-bottom: 50px !important;
+    display: block;
+}
+
+.cookiea-bread1 {
+    display: none !important;
+}
+
+/* .nopadding {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+
+    position: inherit !important;
+    z-index: 120 !important;
+} */
+
+.navbar-collapse {
+    width: 100% !important;
+}
+
+.active,
+a {
+    font-size: 1.8rem !important;
+    color: white !important;
+    border: none !important;
+    text-transform: capitalize !important;
+    /* margin-top: -10px !important; */
+}
+
+.dropdown-menu {
+    background-color: #9f489b !important;
+    border: none !important;
+}
+
+.job-list {
+    margin-top: 2px;
+    width: 99%;
+    border-radius: 23px;
+    height: 38px;
+}
+
+.heading-card-quality {
+    padding-left: 16px;
+    padding-right: 16px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+/* .padding-card {
+} */
+
+.about-heading-01 {
+    margin-top: 21px !important;
+}
+
+.heading-certificate {
+    align-items: center;
+    padding: 0 66px;
+}
+
+.card-colour {
+    background-color: rgb(216, 78, 78) !important;
+    padding: 0 0 0 !important;
+    text-transform: capitalize !important;
+    /* margin-top: -10px !important; */
+}
+
+.img-responsive-about {
+    height: auto !important;
+}
+
+.heading-one {
+    margin-top: 70px !important;
+
+    text-align: center !important;
+}
+
+.heading-one-text {
+    color: tomato !important;
+    font-family: 'Yeseva One', cursive !important;
+    font-size: 3.8rem !important;
+    font-weight: 500 !important;
+    padding: 10px 10px !important;
+}
+
+.font-nice {
+    font-family: 'Yeseva One', cursive !important;
+}
+
+.card-img {
+    height: 80vh !important;
+    width: 100% !important;
+}
+
+.btn-card {
+    height: 40px !important;
+    width: 150px !important;
+    border-radius: 50px !important;
+    text-align: center !important;
+    background-color: #854382 !important;
+    font-weight: 500 !important;
+    font-family: 'Quicksand', sans-serif !important;
+    margin: 0 !important;
+}
+
+.scrollup {
+    position: fixed !important;
+    width: 62px !important;
+    height: 62px !important;
+    bottom: 10px !important;
+    right: 50px !important;
+    background: #9b59b6 !important;
+    -webkit-border-radius: 2px 2px 0 0 !important;
+    -moz-border-radius: 2px 2px 0 0 !important;
+    border-radius: 60px !important;
+    display: block !important;
+    padding: 5px !important;
+    opacity: 1.56 !important;
+}
+
+.persistent-para {
+    padding: 0px 77px;
+}
+
+.h5-size {
+    font-size: 3.5rem !important;
+    color: rgb(255 240 122) !important;
+    font-family: 'Yeseva One', cursive !important;
+    font-weight: 500 !important;
+    line-height: 1.375 !important;
+    padding: 8px;
+}
+
+.heading-persistent {
+    font-size: 3.5rem !important;
+    color: rgb(255 240 122) !important;
+    font-family: 'Yeseva One', cursive !important;
+    font-weight: 500 !important;
+    line-height: 1.375 !important;
+    padding: 8px 64px;
+    margin-top: 8px;
+}
+
+.present-card {
+    padding: 55px 32px;
+    text-transform: initial !important;
+}
+
+.present-para {
+    padding: 15px 351px;
+    text-transform: initial !important;
+}
+
+.h8-size {
+    font-size: 3.5rem !important;
+    line-height: 1.75rem !important;
+    font-family: 'Yeseva One', serif !important;
+    font-weight: 500 !important;
+    line-height: 1.375 !important;
+    color: rgb(223 82 84) !important;
+    text-transform: none;
+    margin: 0 !important;
+}
+
+.h9-size {
+    font-size: 2.5rem !important;
+    font-family: 'Yeseva One', serif !important;
+    font-weight: 500 !important;
+    line-height: 1.375 !important;
+    color: rgb(255, 255, 255) !important;
+    padding-bottom: 10px !important;
+    padding-left: 60px !important;
+    padding-right: 60px !important;
+    text-transform: none !important;
+    margin-top: -28px !important;
+}
+
+.p-size-about-header {
+    font-family: 'Quicksand', sans-serif !important;
+    text-align: center !important;
+    font-weight: 600 !important;
+    font-size: 1.8rem !important;
+    color: rgb(65, 65, 65) !important;
+    align-items: center !important;
+}
+
+.h7-size {
+    font-size: 4rem !important;
+    line-height: 1.75rem !important;
+    font-family: 'Yeseva One', serif !important;
+    font-weight: 500 !important;
+    line-height: 1.375 !important;
+    color: rgb(255 240 122) !important;
+}
+
+.carousel-inner > .item {
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+    width: 100% !important;
+    height: auto !important;
+}
+
+.carousel-inner > .item > video {
+    display: block !important;
+    max-width: 100% !important;
+    height: auto !important;
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+}
+
+.card-img-0 {
+    object-fit: cover !important;
+    width: 100% !important;
+    height: 500px !important;
+    transition: transform 0.3s !important;
+}
+
+.card-img-1 {
+    width: 100% !important;
+    height: 500px !important;
+    transition: transform 0.3s !important;
+}
+
+.card-img-2 {
+    width: 100% !important;
+    height: 400px !important;
+    transition: transform 0.3s !important;
+}
+
+.about-card-img {
+    width: 100vw;
+    height: 90vh;
+}
+.contact-card-img3 {
+    display: none !important;
+}
+/* .contact-card-img {
+    height: auto !important;
+    display: block;
+    padding-bottom: 43px;
+    width: 100vw !important;
+} */
+
+.contact-card-img {
+    height: 100vh !important;
+    display: block;
+    width: 100vw !important;
+}
+
+.carousel-control {
+    /* background-color: #666 !important; */
+    height: 50px;
+    width: 50px !important;
+    border-radius: 30px;
+    margin-top: 100px !important;
+
+    background: rgba(0, 0, 0, 0.5) !important;
+    border: 0;
+    border-radius: 35px;
+    cursor: pointer;
+    min-height: 43px;
+    min-width: 43px;
+    opacity: 1;
+    outline: 0;
+    position: absolute;
+    transition: all 0.5s;
+    z-index: 1000;
+}
+
+.contact-card-img2 {
+    display: none !important;
+}
+.contact-card-img3 {
+    display: none !important;
+}
+
+.business-card-img {
+    height: auto;
+    width: 100vw !important;
+}
+
+.business-container {
+    margin: 0 0 -16px 0 !important;
+    padding: 0 !important;
+}
+
+.business-contact-form {
+    height: auto !important;
+    width: 100% !important;
+    background-color: rgb(72, 190, 131) !important;
+}
+
+.contact-form-heading {
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+}
+
+.contact-form-h2 {
+    line-height: 1.35;
+    font-size: 3.5rem !important;
+    font-weight: 500 !important;
+    font-family: 'Yeseva One', cursive !important;
+    color: rgb(253, 244, 118) !important;
+}
+
+.contact-form-row1 {
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.contact-form-row2 {
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.contact-form-input {
+    padding-bottom: 20px !important;
+}
+
+.contact-form-input2 {
+    padding-bottom: 20px !important;
+}
+
+.contact-input {
+    height: 43px !important;
+    border-radius: 25px !important;
+    color: black;
+}
+
+.contact-input2 {
+    height: 120px !important;
+    border-radius: 25px !important;
+    color: black;
+}
+
+.btn-career {
+    padding: 0 235px;
+}
+
+.contact-input::placeholder {
+    color: black !important;
+    padding-left: 15px !important;
+    font-size: 1.7rem !important;
+    font-weight: 600;
+}
+
+.contact-input2::placeholder {
+    color: black !important;
+    padding-left: 15px !important;
+    font-size: 1.7rem !important;
+    font-weight: 600;
+}
+
+.contact-select {
+    padding-left: 20px !important;
+    height: 43px !important;
+    border-radius: 25px !important;
+    border: none !important;
+    width: 100% !important;
+    font-size: 1.7rem !important;
+    font-weight: 600;
+    color: black !important;
+}
+
+.contact-form-btn {
+    padding-top: 14px !important;
+    text-align: center;
+    padding-bottom: 27px;
+}
+
+.contact-btn {
+    background-color: #854382;
+    border-radius: 50px;
+    font-size: 1.6rem !important;
+    font-family: 'Quicksand', sans-serif !important;
+    margin: 8px 0 0 0 !important;
+}
+
+.btn-profile {
+    padding-top: 50px !important;
+}
+
+.contact-form-select {
+    width: 34.5vw !important;
+    height: 40px !important;
+}
+
+.career-card-img {
+    height: auto !important;
+    width: 100% !important;
+}
+
+.career-opening {
+    width: 100% !important;
+    height: 50vh !important;
+}
+
+.career-card-img1 {
+    display: none !important;
+}
+
+.about-overlay {
+    margin-top: -386px !important;
+    margin-bottom: 267px !important;
+}
+
+.manufacturing-para {
+    padding: 55px 376px;
+}
+
+.contact-overlay {
+    position: absolute;
+    width: 50%;
+    padding: 38px 0 0 0;
+}
+
+.contact-body-back {
+    height: 100vh;
+}
+
+.footer-contact1 {
+    display: inline-block !important;
+    width: -webkit-fill-available !important;
+    margin-bottom: -6px;
+}
+
+.footer-contact2 {
+    display: none !important;
+}
+
+/* .contact-body-back {
+    height: auto;
+    padding-bottom: 31px;
+} */
+
+.navbar-custom ul.nav ul.dropdown-menu li a {
+    padding: 0px 20px !important;
+}
+
+.navbar-custom ul.nav ul.dropdown-menu {
+    border-radius: 5px !important;
+    margin-top: 0px !important;
+}
+
+.head-office-container {
+    text-align: center;
+    padding: 0 175px;
+}
+
+.corporate-container {
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.head-office-heading {
+    color: rgb(223 82 84);
+    font-family: 'Quicksand', sans-serif !important;
+    font-weight: 600;
+    font-size: 1.8rem !important;
+    margin: 5px 0 !important;
+}
+
+.corporate-heading {
+    color: rgb(223 82 84);
+    font-family: 'Quicksand', sans-serif !important;
+    font-weight: 600;
+    font-size: 1.8rem !important;
+    margin: 5px 0 !important;
+}
+
+.head-office-para {
+    font-size: 1.8rem !important;
+    font-family: 'Quicksand', sans-serif !important;
+    font-weight: 600 !important;
+    color: black;
+}
+
+.corporate-para {
+    font-size: 1.6rem !important;
+    font-family: 'Quicksand', sans-serif !important;
+    font-weight: 600 !important;
+    color: black;
+    margin: 10px 0;
+}
+
+.about-img-title {
+    margin-left: 160px !important;
+    font-size: 5rem !important;
+    font-family: 'Yeseva One', serif !important;
+    font-weight: 500 !important;
+    color: #ffffff !important;
+    text-shadow: 3px 5px 3px rgb(143, 142, 145) !important;
+    line-height: 1.3;
+}
+
+.contact-img-title {
+    place-items: center;
+    display: grid;
+    font-size: 3.8rem !important;
+    font-family: 'Yeseva One', serif !important;
+    font-weight: 500 !important;
+    color: #854382 !important;
+    text-shadow: 0px 3px 3px rgb(143, 142, 145) !important;
+    line-height: 1.3;
+    padding: 0px !important;
+    margin: 0 !important;
+}
+
+.row-header {
+    background-color: #854382 !important;
+    height: 76% !important;
+}
+
+.header-card {
+    padding: 105px 109px !important;
+}
+
+.p-size {
+    font-family: 'Bree Serif', serif !important;
+    text-align: center !important;
+    width: 80% !important;
+    font-weight: 300 !important;
+    font-size: 1.8rem !important;
+    color: white !important;
+}
+
+.p-size-1 {
+    font-family: 'Quicksand', sans-serif !important;
+    text-align: center !important;
+    font-size: 1.7rem !important;
+    color: white !important;
+    padding: 16px;
+    text-transform: none !important;
+    line-height: 1.8;
+    width: 76%;
+}
+
+.card-about-core {
+    padding: 29px 277px;
+}
+
+.p-size-about-1 {
+    font-family: 'Quicksand', sans-serif !important;
+    text-align: center !important;
+    /* width: 93% !important; */
+    font-weight: 600 !important;
+    font-size: 1.7rem !important;
+    color: white !important;
+    line-height: 1.89;
+}
+
+.p-about {
+    font-family: 'Quicksand', sans-serif !important;
+    text-align: center !important;
+    /* width: 93% !important; */
+    font-weight: 600 !important;
+    font-size: 1.6rem !important;
+    color: white !important;
+    line-height: 1.89;
+}
+
+.p-size-about-2 {
+    font-family: 'Quicksand', sans-serif !important;
+    text-align: center !important;
+    font-weight: 500 !important;
+    font-size: 1.7rem !important;
+    color: white !important;
+    line-height: 1.89;
+}
+
+.career-description-card-1 {
+    height: 130vh !important;
+    width: 100vw !important;
+    background-color: rgb(198 107 122);
+    display: block !important;
+}
+
+.career-description-card-2 {
+    display: none !important;
+}
+
+.p-size-about-c-para {
+    margin-top: 5px;
+    font-family: 'Quicksand', sans-serif !important;
+    text-align: center !important;
+    font-weight: 600 !important;
+    font-size: 1.9rem !important;
+    color: rgb(0, 0, 0) !important;
+    padding-left: 250px;
+    padding-right: 250px;
+    margin-left: 150px;
+    margin-right: 150px;
+    line-height: 3.23rem !important;
+}
+
+.p-size-2 {
+    font-family: 'Quicksand', sans-serif !important;
+    text-align: center !important;
+    font-weight: lighter !important;
+    font-size: 1.9rem !important;
+    padding-right: 136px !important;
+    max-height: 300px !important;
+    margin-top: 40px !important;
+    padding-left: 136px !important;
+    color: rgb(17 24 39) !important;
+    line-height: 1.5;
+    overflow-y: hidden !important;
+    /* Hide vertical scrollbar */
+    overflow-x: hidden !important;
+    /* Hide horizontal scrollbar */
+    position: relative;
+}
+
+.swiper-card-text {
+    font-family: 'Quicksand', sans-serif !important;
+    text-align: center !important;
+    font-size: 1.9rem !important;
+    padding-right: 0;
+    max-height: fit-content;
+    padding-left: 0;
+    color: rgb(78 80 84) !important;
+    line-height: 1.5;
+    font-weight: 600;
+    padding: 18px 70px;
+}
+
+.card-text {
+    font-family: 'Quicksand', sans-serif !important;
+    text-align: center !important;
+    font-size: 1.9rem !important;
+    padding: 0 115px 24px 115px;
+    max-height: 300px !important;
+    margin-top: 40px !important;
+    font-weight: 500 !important;
+    color: rgb(62 61 61);
+    line-height: 1.5;
+    overflow-y: hidden !important;
+    /* Hide vertical scrollbar */
+    overflow-x: hidden !important;
+    /* Hide horizontal scrollbar */
+    position: relative;
+}
+
+.p-size-3 {
+    font-family: 'Quicksand', sans-serif !important;
+    text-align: center !important;
+    font-weight: 500 !important;
+    font-size: 1.8rem !important;
+    color: rgb(255, 255, 255) !important;
+}
+
+.card-text-1 {
+    font-family: 'Quicksand', sans-serif !important;
+    text-align: center !important;
+    font-weight: 500 !important;
+    font-size: 1.8rem !important;
+    color: rgb(255, 255, 255) !important;
+}
+
+.story-para {
+    text-align: center !important;
+    justify-content: center !important;
+    padding: 0px 166px;
+}
+
+.navbar-collapse {
+    box-shadow: none !important;
+    background: none !important;
+}
+
+.heading-two-text {
+    color: rgb(221 33 56) !important;
+    font-family: 'Yeseva One', cursive !important;
+    font-size: 3.9rem !important;
+    font-weight: 500 !important;
+}
+
+.career-text {
+    color: #854382 !important;
+    font-family: 'Yeseva One', cursive !important;
+    font-size: 3.9rem !important;
+    font-weight: 500 !important;
+    padding-bottom: 10px !important;
+}
+
+.career-menu {
+    text-align: center !important;
+    padding-left: 150px !important;
+    padding-right: 150px !important;
+    padding-bottom: 50px !important;
+    display: flex !important;
+    padding-top: 70px !important;
+    flex-direction: column !important;
+    height: auto !important;
+}
+
+.department-menu {
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
+    justify-content: center !important;
+    flex-direction: row !important;
+    width: 67% !important;
+    display: flex !important;
+    padding-bottom: 30px !important;
+    margin-left: 175px !important;
+    height: 12vh !important;
+}
+
+.department-list {
+    display: block !important;
+    width: 42% !important;
+    border-radius: 9999px !important;
+    border-width: 2px;
+    border-style: solid;
+    --tw-border-opacity: 1;
+    border-color: rgb(0 0 0 / var(--tw-border-opacity));
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+    background-clip: padding-box;
+    background-repeat: no-repeat;
+    font-size: 1.8rem;
+    line-height: 1.5rem;
+    --tw-text-opacity: 1;
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+    font-family: inherit !important;
+    color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.heading-two {
+    text-align: center !important;
+    display: grid !important;
+    padding: 22px 404px;
+}
+
+.p-size-4 {
+    font-family: 'Quicksand', sans-serif !important;
+    text-align: center !important;
+    width: 100% !important;
+    font-weight: 600 !important;
+    font-size: 1.8rem !important;
+
+    color: rgb(97 96 96) !important;
+    line-height: 1.625;
+}
+
+/* .search-box {
+    margin-top: -71px;
+    height: 40px;
+    width: 15vw;
+    border-radius: 50px !important;
+    font-family: 'Yeseva One', cursive !important;
+    font-size: 15px !important;
+} */
+
+.dropdown-menu :hover {
+    background-color: #854382 !important;
+}
+
+.drop-menu {
+    color: #ffffff !important;
+}
+
+.drop-menu:hover {
+    color: #d4d0d4 !important;
+}
+
+.carousel-inner .img-item1 img:last-of-type {
+    display: none !important;
+}
+
+.carousel-inner .img-item1 img:first-of-type {
+    display: block !important;
+}
+
+.carousel-inner .img-item2 img:last-of-type {
+    display: none !important;
+}
+
+.carousel-inner .img-item2 img:first-of-type {
+    display: block !important;
+}
+
+.carousel-inner .img-item3 img:last-of-type {
+    display: none !important;
+}
+
+.carousel-inner .img-item3 img:first-of-type {
+    display: block !important;
+}
+
+/* #myCarousel {
+    width: 100% !important;
+    height: calc(100vh - 128px) !important;
+    margin-bottom: 139px !important;
+} */
+
+.navbar-first {
+    display: grid;
+    place-items: center;
+}
+
+.navbar-second {
+    display: none !important;
+}
+
+.card-about-one {
+    display: block !important;
+    background-color: rgb(216, 78, 78) !important;
+    padding: 0 0 0 !important;
+    height: auto !important;
+    margin-top: 0px !important;
+}
+
+.card-about-two {
+    display: none !important;
+}
+
+.card-about-header {
+    display: block !important;
+    background-color: rgb(164 212 252) !important;
+    padding: 0 0 0 !important;
+    text-transform: capitalize !important;
+    height: auto !important;
+}
+
+.footer-card-text {
+    height: auto !important;
+    width: 100vw !important;
+    margin-top: 0px !important;
+    text-align: center !important;
+    background-color: rgb(223 82 84) !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+
+footer {
+    padding: 0 0 0 !important;
+}
+
+.foot-card {
+    margin-top: 15px;
+    padding-right: 2rem !important;
+    padding-left: 2rem !important;
+    padding-top: 4rem !important;
+    padding-bottom: 4rem !important;
+}
+
+ul > li {
+    list-style-type: none !important;
+    margin-top: 15px !important;
+}
+
+.career-card-list {
+    display: flex !important;
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+    padding-top: 50px !important;
+    padding-bottom: 50px;
+}
+
+.career-details-1 {
+    width: 36% !important;
+    font-family: 'Quicksand', sans-serif !important;
+}
+
+.career-details-2 {
+    width: 60% !important;
+    font-family: 'Quicksand', sans-serif !important;
+}
+
+.name-list {
+    font-size: 1.6rem !important;
+    color: rgb(255, 252, 63) !important;
+    font-weight: 600 !important;
+
+    line-height: 2.4 !important;
+}
+
+.name-list-2 {
+    font-size: 1.6rem !important;
+    color: #ffffff !important;
+    font-weight: 500 !important;
+
+    line-height: 1.8 !important;
+}
+
+.Responsiblity-key-list {
+    margin-top: 40px !important;
+}
+
+.key-response-list {
+    font-size: 1.6rem !important;
+    color: white !important;
+    font-weight: 500 !important;
+
+    line-height: 1.23 !important;
+    list-style-type: circle !important;
+}
+
+.foot-h2 {
+    font-size: 3.5rem !important;
+    line-height: 1.75rem !important;
+    font-family: 'Yeseva One', serif !important;
+    font-weight: 500 !important;
+    line-height: 1.375 !important;
+    color: rgb(255, 255, 255) !important;
+}
+
+.foot-btn {
+    height: 50px !important;
+    width: 170px !important;
+    border-radius: 50px !important;
+    text-align: center !important;
+    background-color: #854382 !important;
+    border: none !important;
+    font-size: 2.9rem !important;
+    /* font-weight: 500 !important; */
+}
+
+.footer-main {
+    background-color: #854382 !important;
+    height: auto !important;
+    width: 100% !important;
+}
+
+.footer-content {
+    margin-top: 56px !important;
+    margin-left: 28px !important;
+}
+
+.text-add {
+    font-family: 'Quicksand', sans-serif !important;
+    font-size: 1.8rem !important;
+    font-weight: 600 !important;
+    text-align: justify !important;
+    margin-top: 5px !important;
+    line-height: 1.24;
+}
+
+.foot-sub-list {
+    margin-left: 15px !important;
+}
+
+.con-num {
+    width: 97% !important;
+}
+
+.text-style {
+    /* font-family: 'Rubik', sans-serif !important; */
+    font-family: 'Quicksand', sans-serif !important;
+    font-size: 1.8rem !important;
+    font-weight: 600 !important;
+}
+
+.text-style:hover {
+    border-bottom: 1px solid white !important;
+}
+
+.foot-grid-card-2 {
+    margin-left: -16px !important;
+}
+
+.foot-text-days {
+    font-size: 1.2rem !important;
+    font-weight: 500 !important;
+}
+
+.foot-grid-card-3 {
+    margin-left: 39px !important;
+    width: 30% !important;
+}
+
+.nav-foot-list {
+    margin-top: 9px !important;
+}
+
+.cursor-pointer {
+    height: 40px !important;
+    padding-left: 20px !important;
+}
+
+.footer-copyright {
+    margin-top: 30px !important;
+    display: block;
+    margin-left: -45px;
+}
+
+.copyright-foot {
+    font-size: 1.8rem !important;
+    color: #ffffff !important;
+    font-family: 'Quicksand', sans-serif !important;
+}
+
+/* Show footer second */
+.footer-second {
+    display: none !important;
+}
+
+/* Hide footer first */
+.footer-first {
+    display: inherit;
+}
+
+.grid {
+    display: flex !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+}
+
+.h-full {
+    display: block !important;
+    width: 100vh !important;
+    height: 16vw !important;
+    object-fit: cover !important;
+}
+
+/* card info about */
+.grid-cols-2 {
+    display: flex !important;
+    align-items: flex-start !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    padding-left: 90px !important;
+    padding-right: 90px !important;
+    padding-top: 20px !important;
+    padding-bottom: 30px !important;
+}
+
+.container_about1 {
+    background-color: rgb(66, 175, 121) !important;
+    width: 100% !important;
+    height: 837px;
+}
+
+.container_about2 {
+    background-color: rgb(209, 72, 72) !important;
+
+    width: 100% !important;
+    height: 837px;
+}
+
+.container_about3 {
+    background-color: #854382 !important;
+    width: 100% !important;
+    height: 837px;
+}
+
+.card-about-manufacture {
+    background-color: rgb(66, 175, 121) !important;
+    height: auto;
+}
+
+.card-about-certificate {
+    background-color: rgb(255, 255, 255) !important;
+    width: 100% !important;
+    height: auto !important;
+    padding-bottom: 0 !important;
+}
+
+.card-img-top {
+    width: 100%;
+    padding: 33px 33px;
+}
+
+.h9-size {
+    font-size: 2.5rem !important;
+    font-family: 'Yeseva One', serif !important;
+    font-weight: 500 !important;
+    line-height: 1.375 !important;
+    color: rgb(255, 255, 255) !important;
+    text-transform: none !important;
+}
+
+.p-size-about-card {
+    font-family: 'Quicksand', sans-serif !important;
+    text-align: center !important;
+    font-weight: 300 !important;
+    font-size: 1.8rem !important;
+    color: rgb(255, 255, 255) !important;
+    line-height: 2.8rem !important;
+    width: 90%;
+    padding: -1px 32px;
+    margin: 21px;
+}
+
+.p-size-about-card2 {
+    font-family: 'Quicksand', sans-serif !important;
+    text-align: center !important;
+    font-weight: 500 !important;
+    font-size: 1.8rem !important;
+    color: rgb(255, 255, 255) !important;
+    align-items: center !important;
+    line-height: 3.25rem !important;
+    margin: 0;
+}
+
+/* about header two green  */
+
+.card-about-header2 {
+    display: block !important;
+    background-color: rgb(66, 175, 121) !important;
+    padding: 0 0 0 !important;
+    text-transform: capitalize !important;
+    height: 55vh !important;
+}
+
+.h10-size {
+    font-size: 3.8rem !important;
+    font-family: 'Yeseva One', serif !important;
+    font-weight: 500 !important;
+    line-height: 1.375 !important;
+    color: rgb(255, 255, 255) !important;
+    margin: 0;
+    padding: 0 0 32px 0;
+}
+
+.h12-size {
+    font-size: 3.8rem !important;
+    line-height: 1.75rem !important;
+    font-family: 'Yeseva One', serif !important;
+    font-weight: 500 !important;
+    line-height: 1.375 !important;
+    color: rgb(207, 92, 39) !important;
+    padding-bottom: 5px !important;
+}
+
+.card-about-three {
+    background-color: rgb(0 131 183) !important;
+    padding: 0 0 0 !important;
+    text-transform: capitalize !important;
+    height: auto !important;
+    display: flex !important;
+    position: relative !important;
+    z-index: 120 !important;
+}
+
+/* .img-responsive-about1 {
+    height: 86vh !important;
+    position: fixed !important;
+    margin-top: 0px !important;
+    display: block;
+} */
+.h11-size {
+    font-size: 4rem !important;
+
+    font-family: 'Yeseva One', serif !important;
+    font-weight: 500 !important;
+    line-height: 1.375 !important;
+    color: rgb(255, 255, 255) !important;
+
+    text-transform: none !important;
+}
+
+.p-size-about-card3 {
+    font-family: 'Quicksand', sans-serif !important;
+    text-align: center !important;
+    font-weight: 500 !important;
+    font-size: 1.7rem !important;
+    color: rgb(255, 255, 255) !important;
+    text-transform: initial;
+}
+
+.p-size-about-card4 {
+    font-family: 'Yeseva One', serif !important;
+    text-align: center !important;
+    font-weight: 500 !important;
+    font-size: 2rem !important;
+    color: rgb(255, 255, 255) !important;
+}
+
+.cursor-pointer1 {
+    height: 35px !important;
+    padding-left: -60px !important;
+    margin-left: -10px !important;
+}
+
+.about-card-heading {
+    margin-top: 30px !important;
+    margin-left: -50px !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+    padding-left: 100px !important;
+    padding-right: 110px !important;
+}
+
+.our-mission-two {
+    display: none !important;
+}
+
+.container_certificate1 {
+    width: 100% !important;
+    margin: 0;
+    padding: 0;
+}
+
+.grid-cols-3 {
+    display: flex !important;
+    align-items: flex-start !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    padding-left: 90px !important;
+    padding-right: 90px !important;
+    padding-top: 20px !important;
+    padding-bottom: 0px !important;
+    margin-top: -50px !important;
+    margin-bottom: 0 !important;
+}
+
+.card-img-certificate {
+    height: 235px;
+    width: 24vw;
+    place-items: center;
+    display: grid;
+    margin-left: 104px;
+}
+
+.image-text1 {
+    font-family: 'Quicksand', sans-serif !important;
+    text-align: center !important;
+    font-weight: 600 !important;
+    font-size: 2rem !important;
+    color: black !important;
+    margin: 0;
+}
+
+.image-text2 {
+    font-family: 'Quicksand', sans-serif !important;
+    text-align: center !important;
+    font-weight: 600 !important;
+    font-size: 2rem !important;
+    color: black !important;
+    margin: 0;
+}
+
+.our-mission-one {
+    display: block !important;
+}
+
+.our-mission-two {
+    display: none !important;
+}
+
+.career-form-card {
+    height: auto !important;
+    width: 100% !important;
+    background-color: rgb(66, 175, 121) !important;
+    position: relative;
+    padding-bottom: 30px;
+    margin-bottom: 1px;
+    display: grid;
+    place-items: center;
+}
+
+.career-form-heading {
+    color: white !important;
+    font-family: 'Yeseva One', cursive !important;
+    margin: 0;
+    text-align: center;
+    padding: 35px 0 0 0;
+    place-items: center;
+    display: grid;
+}
+
+.form-container {
+    padding: 30px 280px !important;
+}
+
+.small-text {
+    color: #701992 !important;
+    font-family: 'Yeseva One', cursive !important;
+    font-size: 1.4rem !important;
+    font-weight: 600 !important;
+}
+
+.input-top-m {
+    padding-top: 25px !important;
+}
+
+.form-control-input {
+    height: 40px !important;
+    border-radius: 20px !important;
+    font-size: 1.5rem !important;
+    font-weight: 600 !important;
+    color: black !important;
+}
+
+.form-control-input1 {
+    height: 40px !important;
+    border-radius: 20px !important;
+    font-weight: 600 !important;
+    color: black !important;
+}
+
+.form-control-select1 {
+    height: 40px !important;
+    border-radius: 20px !important;
+    font-weight: 600 !important;
+    color: black !important;
+    width: -webkit-fill-available;
+}
+
+.form-control-select2 {
+    width: 100% !important;
+    height: 40px !important;
+    border-radius: 20px !important;
+    font-weight: 600 !important;
+    color: black !important;
+}
+
+.reCaptcha-m {
+    padding-left: 185px !important;
+}
+
+.sub-btn {
+    margin-top: 30px !important;
+    border-radius: 20px !important;
+    background-color: #854382;
+    height: 40px !important;
+
+    width: 10vw !important;
+}
+
+.profile-btn {
+    margin-top: 30px !important;
+    border-radius: 20px !important;
+    background-color: #854382;
+    height: 40px !important;
+    width: 15vw !important;
+}
+
+.form-control::placeholder {
+    font-weight: 600 !important;
+    color: rgb(37, 36, 36) !important;
+}
+
+.form-control-input::placeholder {
+    font-weight: 600 !important;
+    color: black !important;
+}
+
+.fresher-btn {
+    font-size: 1.8rem !important;
+    font-family: 'Quicksand', sans-serif !important;
+    font-weight: 600 !important;
+}
+
+.form-control-input1::placeholder {
+    font-weight: 600 !important;
+    color: black !important;
+}
+
+@media (max-width: 1060px) {
+    .carousel-inner .img-item1 img:last-of-type {
+        display: block !important;
+    }
+
+    .carousel-inner .img-item1 img:first-of-type {
+        display: none !important;
+    }
+
+    .carousel-inner .img-item2 img:last-of-type {
+        display: block !important;
+    }
+
+    .carousel-inner .img-item2 img:first-of-type {
+        display: none !important;
+    }
+
+    .carousel-inner .img-item3 img:last-of-type {
+        display: block !important;
+    }
+
+    .carousel-inner .img-item3 img:first-of-type {
+        display: none !important;
+    }
+
+    .our-mission-one {
+        display: none !important;
+    }
+
+    .our-mission-two {
+        display: grid !important;
+    }
+
+    /* Show footer second */
+    .footer-second {
+        display: block !important;
+        margin-top: -24px;
+    }
+
+    /* Hide footer first */
+    .footer-first {
+        display: none !important;
+    }
+
+    .navbar-first {
+        display: none !important;
+    }
+
+    .navbar-second {
+        display: block !important;
+    }
+
+    .about-card-heading {
+        margin-top: 20px !important;
+        padding-top: 10px !important;
+    }
+
+    .heading-certificate {
+        margin-top: 0px !important;
+        padding-top: 10px !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        place-items: center;
+        display: grid;
+    }
+
+    .cursor-pointer {
+        height: 35px !important;
+        padding-left: 10px !important;
+        padding-top: 10px !important;
+    }
+
+    .footer-copyright {
+        display: none !important;
+    }
+    .footer-btn {
+        margin: 0 0 35px 0;
+    }
+    .copyright-foot {
+        font-size: 1.25rem !important;
+        color: #ffffff !important;
+        font-family: 'Comfortaa', cursive !important;
+    }
+
+    .h5-size {
+        font-size: 2rem !important;
+        line-height: 1.75rem !important;
+        color: rgb(255 240 122) !important;
+        font-family: 'Yeseva One', serif !important;
+        font-weight: 500 !important;
+        line-height: 1.3 !important;
+        margin: 0;
+    }
+
+    .heading-persistent {
+        font-size: 2.3rem !important;
+        line-height: 1.75rem !important;
+        color: rgb(255 240 122) !important;
+        font-family: 'Yeseva One', serif !important;
+        font-weight: 500 !important;
+        line-height: 1.24 !important;
+    }
+
+    /* career page  */
+
+    .career-form-card {
+        background-color: rgb(66, 175, 121) !important;
+        margin-bottom: -16px;
+    }
+
+    .career-form-heading {
+        color: rgb(255, 255, 255) !important;
+        font-family: 'Yeseva One', cursive !important;
+        font-size: 23px !important;
+    }
+
+    .apply-btn {
+        height: 30px !important;
+        border-radius: 50px !important;
+        text-align: center !important;
+        background-color: #854382 !important;
+        border: none !important;
+        font-size: 2rem !important;
+    }
+
+    .select-btn-main {
+        display: flex !important;
+        padding-top: 50px !important;
+        padding-bottom: -15px !important;
+    }
+
+    #home-card-first {
+        display: block !important;
+    }
+
+    .home-card-first {
+        display: none !important;
+    }
+
+    .form-control-select2 {
+        width: 98% !important;
+        height: 40px !important;
+        border-radius: 20px !important;
+        font-weight: 600 !important;
+        color: black !important;
+    }
+
+    .cookiea-bread {
+        display: none !important;
+    }
+
+    .cookiea-bread1 {
+        display: block !important;
+    }
+
+    .image-container {
+        width: 95% !important;
+    }
+
+    .reCaptcha-m {
+        padding-left: 16px !important;
+        padding-right: 12px !important;
+        padding-top: 28px !important;
+    }
+
+    .captcha-margin {
+        margin: 0;
+        padding: 0;
+    }
+
+    .form-control-input {
+        height: 31px !important;
+        border-radius: 20px !important;
+        font-size: 1.5rem !important;
+        font-weight: 600 !important;
+        color: black !important;
+        width: 91% !important;
+    }
+
+    .form-control-input1 {
+        height: 31px !important;
+        border-radius: 20px !important;
+        font-size: 1.5rem !important;
+        font-weight: 600 !important;
+        color: black !important;
+        width: 91% !important;
+    }
+
+    .form-control-select1 {
+        width: 98% !important;
+        height: 40px !important;
+        border-radius: 20px !important;
+        font-weight: 600 !important;
+        color: black !important;
+    }
+
+    .p-size {
+        font-family: 'Quicksand', sans-serif !important;
+        text-align: center !important;
+        width: 70% !important;
+        font-weight: 300 !important;
+        font-size: 1.2rem !important;
+        color: white !important;
+        padding-left: 50px !important;
+        padding-right: 50px !important;
+    }
+
+    .p-size-1 {
+        font-family: 'Quicksand', sans-serif !important;
+        text-align: center !important;
+        font-weight: 300;
+        font-size: 1.2rem !important;
+        color: white !important;
+        margin-left: 0 !important;
+        transform: translateZ(0) scale(1);
+        line-height: 1.4;
+        width: 100% !important;
+        padding: 0 !important;
+    }
+
+    .p-size-2 {
+        font-family: 'Bree Serif', serif !important;
+        text-align: center !important;
+
+        font-weight: 300 !important;
+        font-size: 1.8rem !important;
+        padding-right: 10px !important;
+        max-height: 200px !important;
+        margin-top: 20px !important;
+
+        padding-left: 10px !important;
+        color: rgb(0, 0, 0) !important;
+    }
+
+    .carousel-control {
+        background: rgba(0, 0, 0, 0.5) !important;
+        border: 0 !important;
+        border-radius: 35px !important;
+        cursor: pointer !important;
+        min-height: 43px !important;
+        min-width: 43px !important;
+        opacity: 1 !important;
+        outline: 0 !important;
+        position: absolute !important;
+        transition: all 0.5s !important;
+        z-index: 1000 !important;
+        top: 28% !important;
+    }
+
+    .carousel-control .icon-prev,
+    .carousel-control .icon-next {
+        margin-top: -15px !important;
+        font-size: 44px !important;
+    }
+
+    .carousel-control.left {
+        left: calc(4% + 1px) !important;
+    }
+
+    .card-img-2 {
+        /* object-fit: cover!important; */
+        width: 100% !important;
+        height: 190px !important;
+        transition: transform 0.3s !important;
+    }
+
+    .header-card {
+        padding: 27px 2vw !important;
+    }
+
+    .row-header {
+        background-color: #854382 !important;
+        height: 70% !important;
+        width: 104vw !important;
+        margin-bottom: 0px !important;
+    }
+
+    .p-size-3 {
+        font-weight: 600 !important;
+        font-size: 1.24rem !important;
+        text-indent: 0 !important;
+        line-height: 1.4;
+    }
+
+    .about-us-main-container {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .h7-size {
+        font-size: 2.3rem !important;
+        line-height: 1.75rem !important;
+        font-family: 'Yeseva One', serif !important;
+        font-weight: 500 !important;
+        line-height: 1.375 !important;
+        color: rgb(255 240 122) !important;
+    }
+
+    .btn-card {
+        margin-left: 0px !important;
+    }
+
+    .btn-card {
+        margin-left: -13px !important;
+        height: 34px !important;
+        width: 120px !important;
+        border-radius: 50px !important;
+        text-align: center !important;
+        background-color: #854382 !important;
+        font-weight: 200 !important;
+        font-family: 'Quicksand', sans-serif !important;
+    }
+
+    .swiper {
+        margin-top: -23px !important;
+    }
+
+    .flex {
+        display: contents !important;
+    }
+
+    .heading-one-text {
+        color: tomato !important;
+        font-family: 'Yeseva One', cursive !important;
+        font-size: 2rem !important;
+        font-weight: 500 !important;
+    }
+
+    .heading-one {
+        margin-top: -1px !important;
+        padding-bottom: 1rem !important;
+        background-color: white !important;
+        padding: 20px !important;
+    }
+
+    /* contact  */
+
+    .contact-form-h2 {
+        line-height: 1.35;
+        font-size: 1.8rem !important;
+        font-weight: 500 !important;
+        font-family: 'Yeseva One', cursive !important;
+        color: rgb(253, 244, 118) !important;
+    }
+
+    .contact-form-heading {
+        text-align: center;
+        padding-top: 21px;
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+        padding-bottom: 21px;
+    }
+
+    .contact-form-row1 {
+        padding-right: 15px;
+        padding-left: 0px;
+    }
+
+    .contact-form-row2 {
+        padding-right: 15px;
+        padding-left: 0px;
+        padding-top: 16px;
+    }
+
+    .contact-form-input2 {
+        padding-bottom: 20px !important;
+    }
+
+    .contact-form-input {
+        padding-bottom: 16px !important;
+    }
+
+    .contact-input {
+        height: 29px !important;
+        border-radius: 25px !important;
+        color: black !important;
+    }
+
+    .contact-input::placeholder {
+        color: black !important;
+        padding-left: 15px !important;
+        font-size: 1.5rem !important;
+        font-weight: 600;
+    }
+
+    .contact-input2::placeholder {
+        color: black !important;
+        padding-left: 15px !important;
+        font-size: 1.5rem !important;
+        font-weight: 600;
+    }
+
+    .contact-select {
+        font-size: 1.5rem !important;
+    }
+
+    .head-office-para {
+        font-size: 1.4rem !important;
+        font-family: 'Quicksand', sans-serif !important;
+        font-weight: 600 !important;
+        color: black;
+    }
+
+    .corporate-para {
+        font-size: 1.4rem !important;
+        font-family: 'Quicksand', sans-serif !important;
+        font-weight: 600 !important;
+        color: black;
+    }
+
+    .contact-btn {
+        background-color: #854382;
+    }
+
+    .contact-form-btn {
+        padding-top: 24px !important;
+        text-align: center;
+    }
+
+    .contact-img-title {
+        margin-left: 8px !important;
+        font-size: 2.8rem !important;
+        text-align: center;
+        padding: 10px 0 !important;
+    }
+
+    .business-contact-form {
+        height: auto !important;
+        width: 100% !important;
+        background-color: rgb(72, 190, 131) !important;
+        padding-bottom: 50px;
+    }
+
+    .contact-overlay {
+        position: absolute;
+        width: 100% !important;
+    }
+
+    .contact-back {
+        background: url('../assets/static/images/contact-mobileview-02.jpg') !important;
+        height: auto !important;
+        display: flex !important;
+        width: 100vw !important;
+    }
+
+    .contact-card-img {
+        display: none !important;
+    }
+    .contact-card-img3 {
+        display: none !important;
+    }
+
+    .contact-card-img2 {
+        height: 100vh !important;
+        display: flex !important;
+        width: 100vw !important;
+    }
+
+    .head-office-container {
+        text-align: center;
+        padding-left: 22px;
+        padding-right: 22px;
+    }
+
+    .corporate-container {
+        text-align: center;
+        padding-left: 54px;
+        padding-right: 54px;
+    }
+
+    .head-office-container {
+        text-align: center;
+        padding-left: 54px;
+        padding-right: 54px;
+    }
+
+    .job-desc {
+        margin-left: -20px !important;
+    }
+
+    /* conatact  */
+
+    .navabr-din {
+        height: 4rem !important;
+        width: 106vw !important;
+        display: block !important;
+        position: fixed !important;
+        left: -70px !important;
+        right: 0 !important;
+        grid-template-areas:
+            'logo menu'
+            'nav nav' !important;
+        min-height: 65px !important;
+    }
+
+    .navabr-din.navbar-small {
+        height: 4rem !important;
+    }
+
+    /* 
+    .navbar-brand > img {
+        display: flex !important;
+        padding-left: 29px !important;
+        margin-left: 0px !important;
+        padding-top: 13px !important;
+        /* height: 0 !important; */
+    /* }
+    .navbar > .container .navbar-brand,
+    .navbar > .container-fluid .navbar-brand {
+        margin-left: -29px !important;
+    } */
+    */ .footer-brand {
+        display: flex !important;
+        padding-left: 0 !important;
+    }
+
+    /* .logo-navbar {
+        margin-left: 0px !important;
+        height: 11rem !important;
+        width: 79px !important;
+    } */
+    .logo-footer {
+        margin-left: 0px !important;
+        height: 11rem !important;
+        width: 78px !important;
+        margin-top: 6px !important;
+        margin-bottom: -14px !important;
+    }
+
+    #content-colour {
+        background-color: #854382 !important;
+        text-align: center !important;
+        margin-right: auto;
+        justify-items: center !important;
+        width: 100% !important;
+        border: none !important;
+        height: auto !important;
+        padding: 0 7px;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+
+    .navbar-shrink .navbar-collapse {
+        padding: 24px 0 0 0 !important;
+        margin: 0 16px 0 16px !important;
+    }
+
+    .career-card-img {
+        display: none !important;
+    }
+
+    /* pending work for mobile view  */
+
+    .heading-two-text {
+        color: rgb(221 33 56 / var(--tw-text-opacity));
+        font-family: 'Yeseva One', cursive !important;
+        font-size: 2.3rem !important;
+        font-weight: 500 !important;
+    }
+
+    .career-text {
+        color: tomato !important;
+        font-family: 'Yeseva One', cursive !important;
+        font-size: 1.9rem !important;
+        font-weight: 500 !important;
+    }
+
+    .career-menu {
+        padding-left: 2.2rem !important;
+        padding-right: 2.2rem !important;
+        text-align: center !important;
+        padding-bottom: -1.7rem !important;
+        padding-top: 6.3rem !important;
+        justify-content: center !important;
+        align-items: center !important;
+        flex-direction: column !important;
+        /* width: 100%!important; */
+        height: 5% !important;
+        display: flex !important;
+        background-color: white !important;
+        margin-top: 0px !important;
+    }
+
+    .present-card {
+        margin: 0;
+    }
+
+    .our-legacy-container {
+        width: 100% !important;
+        margin-bottom: -27px !important;
+    }
+
+    .department-list {
+        display: block !important;
+        height: 4vh;
+        width: 52% !important;
+        border-radius: 9999px !important;
+        border-width: 2px;
+        border-style: solid;
+        --tw-border-opacity: 1;
+        border-color: rgb(0 0 0 / var(--tw-border-opacity));
+        --tw-bg-opacity: 1;
+        background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+        background-clip: padding-box;
+        background-repeat: no-repeat;
+        font-size: 1.3rem;
+        line-height: 1.3rem;
+        --tw-text-opacity: 1;
+        padding-top: 1rem !important;
+        padding-bottom: 1rem !important;
+        padding-left: 2rem !important;
+        padding-right: 10rem !important;
+        font-family: inherit !important;
+        font-weight: 600;
+        color: rgb(0 0 0 / var(--tw-text-opacity));
+        margin-left: -352px;
+    }
+
+    .heading-two {
+        text-align: center !important;
+        display: grid !important;
+        padding: 6px 61px;
+    }
+
+    .department-menu {
+        margin-top: -1rem !important;
+        margin-bottom: 2rem !important;
+        justify-content: center !important;
+        flex-direction: row !important;
+        width: 100% !important;
+        display: flex !important;
+        padding-bottom: 30px !important;
+    }
+
+    .career-description-card-2 {
+        height: auto !important;
+        width: 100vw !important;
+        background-color: rgb(198 107 122) !important;
+        margin-left: 0px !important;
+        position: relative !important;
+        border-radius: 0 !important;
+        display: flex !important;
+        font-family: 'Quicksand', sans-serif !important;
+    }
+
+    .table-name-list1 {
+        color: rgb(255, 225, 53) !important;
+        font-size: 1.4rem !important;
+        font-weight: 600 !important;
+        width: 50% !important;
+    }
+
+    .table-name-list2 {
+        color: white !important;
+        font-size: 1.4rem !important;
+        font-weight: 500 !important;
+    }
+
+    .career-description-card-1 {
+        display: none !important;
+    }
+
+    #table-career {
+        padding-top: 50px !important;
+        margin-top: 30px !important;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+
+    .key-response-h2 {
+        margin-left: 10px !important;
+        font-size: 1.4rem !important;
+        font-weight: 600 !important;
+        color: rgb(255, 225, 53) !important;
+    }
+
+    .key-resposible-list {
+        color: white !important;
+        font-size: 1.4rem !important;
+        font-weight: 500 !important;
+        list-style: circle !important;
+        line-height: 1.2 !important;
+    }
+
+    .career-card-list {
+        display: flex !important;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+        padding-top: 50px !important;
+    }
+
+    .p-size-about-card4 {
+        font-family: 'Yeseva One', serif !important;
+        text-align: center !important;
+        font-weight: 600 !important;
+        font-size: 1.5rem !important;
+        color: rgb(255, 255, 255) !important;
+        margin: 0;
+    }
+
+    .name-list {
+        font-size: 1.2rem !important;
+        color: rgb(255, 252, 63) !important;
+        font-weight: 600 !important;
+        line-height: 2.4 !important;
+    }
+
+    .name-list-2 {
+        font-size: 1.2rem !important;
+        color: rgb(255, 255, 255) !important;
+        font-weight: 600 !important;
+        line-height: 2.4 !important;
+    }
+
+    * {
+        box-sizing: content-box !important;
+        margin-top: 5px;
+    }
+
+    .product-dairy-home {
+        margin-bottom: -67px !important;
+    }
+
+    .manufacturing-para {
+        padding: 32px 0px;
+    }
+
+    .about-heading-card2 {
+        padding: 20px 31px;
+    }
+
+    .form-container {
+        padding-left: 52px !important;
+        padding-right: 52px !important;
+        padding-top: 0px !important;
+        padding-bottom: 0 !important;
+    }
+
+    .p-size-4 {
+        font-family: 'Quicksand', sans-serif !important;
+        text-align: center !important;
+        font-weight: 600 !important;
+        font-size: 1.3rem !important;
+        color: rgb(59, 58, 58) !important;
+    }
+
+    footer {
+        padding: 0 0 0 !important;
+    }
+
+    .foot-card {
+        margin-top: 27px !important;
+        padding-right: 0.5rem !important;
+        padding-left: 0.5rem !important;
+        padding-top: 0rem !important;
+        padding-bottom: 0rem !important;
+    }
+
+    .foot-h2 {
+        font-size: 2rem !important;
+        font-family: 'Yeseva One', serif !important;
+        font-weight: 500 !important;
+        line-height: 1.375 !important;
+        color: rgb(255, 255, 255) !important;
+        margin: 0 0 35px !important;
+    }
+
+    .foot-btn {
+        height: 30px !important;
+        width: 120px !important;
+        border-radius: 50px !important;
+        text-align: center !important;
+        background-color: #854382 !important;
+        border: none !important;
+        font-size: 2rem !important;
+        /* font-weight: 500 !important; */
+    }
+
+    .sub-btn {
+        margin-left: 0 !important;
+        margin-top: 0 !important;
+        border-radius: 20px !important;
+        background-color: #854382;
+        height: 23px !important;
+        text-align: center;
+        width: 59px !important;
+        font-size: 1.4rem !important;
+        font-weight: 500 !important;
+    }
+
+    .btn-career {
+        margin: 0;
+        padding: 26px 17px;
+    }
+
+    .profile-btn {
+        margin-left: 0px !important;
+        margin-top: 0px !important;
+        border-radius: 20px !important;
+        background-color: #854382 !important;
+        height: 25px !important;
+        width: 151px !important;
+        font-size: 1.5rem !important;
+        font-family: none !important;
+    }
+
+    .footer-content-second {
+        margin-top: 130px !important;
+        margin-left: 0px !important;
+        display: flex !important;
+        width: 100% !important;
+    }
+
+    .nav > li {
+        position: relative !important;
+        display: flex !important;
+    }
+
+    .nav li.active {
+        outline: 0 !important;
+        background: none !important;
+    }
+
+    .navbar-collapse {
+        overflow-x: visible !important;
+        -webkit-overflow-scrolling: touch !important;
+        border: none !important;
+        box-shadow: none !important;
+    }
+
+    .navbar-content {
+        margin-top: -66px !important;
+        margin-right: 0px !important;
+        height: auto !important;
+        /* margin-right: -26px !important;
+        margin-left: 8px !important; */
+    }
+
+    /* .container-navbar {
+        margin-right: 50px !important;
+    } */
+    .navbar-logo-head {
+        padding-top: 71px !important;
+        padding-left: 123px !important;
+        padding-bottom: 5px !important;
+        /* margin-left: 0px !important; */
+    }
+
+    .container-navbar {
+        margin-right: 38px !important;
+        margin-left: -2px !important;
+        margin-bottom: -347px !important;
+    }
+
+    .navbar-collapse.in {
+        overflow-y: hidden !important;
+        padding-left: 0px !important;
+        overflow-y: hidden !important;
+    }
+
+    .nav > li {
+        position: relative !important;
+        display: block !important;
+    }
+
+    /* .active {
+        margin-top: 29px !important;
+    } */
+
+    .active-text {
+        padding-left: 10px;
+    }
+
+    /* .logo-navbar {
+        margin-top: -20px !important;
+    } */
+    .navbar-collapse {
+        padding: 0 0 0 0 !important;
+    }
+
+    .about-card-img {
+        display: block !important;
+
+        height: 50vh !important;
+        width: 100vw !important;
+    }
+
+    .business-card-img {
+        display: block !important;
+
+        height: 45vh;
+        width: 100vw !important;
+    }
+
+    .career-card-img1 {
+        height: auto !important;
+        width: 100vw !important;
+        display: flex !important;
+    }
+
+    .about-overlay {
+        margin-top: -252px !important;
+        margin-bottom: 90px !important;
+    }
+
+    .home-card-colour {
+        background-color: rgb(216, 78, 78) !important;
+        margin-bottom: -20px !important;
+        margin-top: -10px !important;
+        height: auto !important;
+        width: -webkit-fill-available !important;
+    }
+
+    .about-img-title {
+        font-size: 3rem !important;
+        line-height: 2.25rem !important;
+        font-family: 'Yeseva One', serif !important;
+        font-weight: 500 !important;
+        line-height: 1.15 !important;
+
+        margin: 0 !important;
+        padding: 38px 37px;
+    }
+
+    .card-about-one {
+        display: none !important;
+    }
+
+    .card-about-two {
+        background-color: rgb(216, 78, 78) !important;
+        padding: 0 0 0 !important;
+        text-transform: capitalize !important;
+        height: 100% !important;
+        display: table-cell !important;
+        position: relative !important;
+        z-index: 120 !important;
+    }
+
+    .card-about-core {
+        padding: 29px 19px;
+    }
+
+    .p-size-about-1 {
+        font-family: 'Quicksand', sans-serif !important;
+        text-align: center !important;
+        font-weight: 500 !important;
+        font-size: 1.2rem !important;
+        color: white !important;
+        line-height: 1.9rem !important;
+        margin: 0;
+        padding: 8px 0;
+    }
+
+    .p-about {
+        font-family: 'Quicksand', sans-serif !important;
+        text-align: center !important;
+        font-weight: 500 !important;
+        font-size: 1.2rem !important;
+        color: white !important;
+        line-height: 1.9rem !important;
+        margin: 0;
+        padding: 8px 0;
+    }
+
+    .mission-para {
+        width: 86%;
+        margin-top: 20px !important;
+        padding-left: 28px;
+        padding-right: 50px;
+    }
+
+    .about-heading-01 {
+        padding: 1px 0px;
+    }
+
+    .p-size-about-2 {
+        font-family: 'Quicksand', sans-serif !important;
+        text-align: center !important;
+        width: 99% !important;
+        font-weight: 500 !important;
+        font-size: 1.3rem !important;
+        color: white !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        margin-top: -7px !important;
+        line-height: 1.9rem !important;
+    }
+
+    .img-responsive-about {
+        height: 49vh !important;
+        width: 100vw !important;
+        padding-left: 15px !important;
+    }
+
+    .img-responsive {
+        height: auto !important;
+        width: 104vw !important;
+    }
+
+    .p-size-about-header {
+        font-family: 'Quicksand', sans-serif !important;
+        text-align: center !important;
+        font-weight: 600 !important;
+        font-size: 1.2rem !important;
+        color: rgb(65, 65, 65) !important;
+        align-items: center !important;
+        line-height: 1.34;
+        text-transform: none;
+    }
+
+    .present-card {
+        padding: 25px 32px;
+        text-transform: initial !important;
+    }
+
+    .home-heading-card {
+        padding: 10px 22px !important;
+    }
+
+    .card-img-top {
+        width: 94%;
+        height: 100%;
+        padding: 20px 10px;
+    }
+
+    .present-para {
+        padding: 15px 3px !important;
+    }
+
+    .h8-size {
+        font-size: 2.25rem !important;
+        font-family: 'Yeseva One', serif !important;
+        font-weight: 500 !important;
+        line-height: 1.375 !important;
+        color: rgb(223 82 84) !important;
+        padding: 5px 0px;
+    }
+
+    .card-about-header {
+        display: block !important;
+        background-color: rgb(164 212 252) !important;
+        padding: 0 0 0 !important;
+        text-transform: capitalize !important;
+        height: auto !important;
+        position: relative !important;
+        margin-top: -5px !important;
+        margin-bottom: -10px !important;
+    }
+
+    /* image  */
+    .grid {
+        display: grid !important;
+        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    }
+
+    .h-full {
+        display: block !important;
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    .main-product-about {
+        display: grid;
+    }
+
+    /* card info about */
+    .grid-cols-2 {
+        display: block !important;
+        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+        padding-top: 20px !important;
+    }
+
+    .card-text-1 {
+        font-weight: 600 !important;
+        font-size: 1.24rem !important;
+        text-indent: 0 !important;
+        line-height: 1.4;
+    }
+
+    .story-para {
+        text-align: center !important;
+        justify-content: center !important;
+        padding: 0px 35px !important;
+    }
+
+    .swiper-slide img {
+        width: 106vw !important;
+    }
+
+    .swiper-responsive {
+        display: none !important;
+    }
+
+    #swiper-responsive {
+        display: block !important;
+    }
+
+    /* .menu-itmem-container {
+        height: 100vh !important;
+    } */
+
+    .swiper-card-text {
+        font-family: 'Quicksand', sans-serif !important;
+        text-align: center !important;
+        font-size: 1.24rem !important;
+        padding-right: 0;
+        max-height: fit-content;
+        padding-left: 0;
+        color: rgb(17 24 39) !important;
+        line-height: 1.5;
+        font-weight: 600;
+        padding: 18px 21px;
+    }
+
+    .card-title {
+        font-size: 2.2rem !important;
+    }
+
+    .product-title {
+        font-size: 2.2rem !important;
+    }
+
+    .container_about1 {
+        background-color: rgb(66, 175, 121) !important;
+        width: 100% !important;
+        height: auto !important;
+        justify-content: center !important;
+        position: relative !important;
+    }
+
+    .container_about2 {
+        background-color: rgb(209, 72, 72) !important;
+        width: 100% !important;
+        height: auto !important;
+        justify-content: center !important;
+    }
+
+    .container_about3 {
+        background-color: #854382 !important;
+        width: 100% !important;
+        height: auto !important;
+        justify-content: center !important;
+    }
+
+    /* .card-img-top {
+        height: 50vh !important;
+        width: 96% !important;
+        padding: 7px 7px;
+    } */
+    .apply-btn-container {
+        place-items: center;
+        display: grid;
+    }
+
+    .h9-size {
+        font-size: 1.5rem !important;
+        font-family: 'Yeseva One', serif !important;
+        font-weight: 500 !important;
+        line-height: 1.375 !important;
+        color: rgb(255, 255, 255) !important;
+        padding: 0 !important;
+        text-align: center !important;
+        margin: 0 0 15px 0;
+    }
+
+    .card-img {
+        vertical-align: middle !important;
+        height: 85vh !important;
+        padding-top: 2px !important;
+        width: 100vw !important;
+    }
+
+    .p-size-about-card {
+        font-family: 'Quicksand', sans-serif !important;
+
+        text-align: center !important;
+        font-weight: 500 !important;
+        font-size: 1.25rem !important;
+        color: rgb(255, 255, 255) !important;
+        align-items: center !important;
+
+        line-height: 1.7rem !important;
+        width: auto !important;
+    }
+
+    .contact-body-back {
+        height: auto;
+        padding-bottom: 0;
+    }
+
+    .p-size-about-card2 {
+        font-weight: 500 !important;
+        font-size: 1.25rem !important;
+        color: rgb(255, 255, 255) !important;
+        align-items: center !important;
+        line-height: 2rem !important;
+        padding: 0 37px !important;
+    }
+
+    .h10-size {
+        font-size: 2.5rem !important;
+        line-height: 1.75rem !important;
+        font-family: 'Yeseva One', serif !important;
+        font-weight: 500 !important;
+        line-height: 1.375 !important;
+        color: rgb(255, 255, 255) !important;
+        padding-bottom: 20px !important;
+    }
+
+    .our_head {
+        font-size: 1.5rem !important;
+        margin-bottom: 3px !important;
+        font-family: 'Yeseva One', serif !important;
+        font-weight: 500 !important;
+        color: rgb(255, 255, 255) !important;
+    }
+
+    .cursor-pointer2 {
+        height: 30px !important;
+        padding-left: -60px !important;
+        margin-left: -60px !important;
+    }
+
+    .card-about-three {
+        background-color: rgb(0 131 183) !important;
+        text-transform: capitalize !important;
+        height: auto !important;
+        position: relative !important;
+        z-index: 120 !important;
+        margin-bottom: 30px !important;
+        margin-top: 0px !important;
+    }
+
+    .carousel {
+        margin: 0;
+    }
+
+    .h5ourmission-size {
+        font-size: 2.1rem !important;
+        line-height: 1.75rem !important;
+        font-family: 'Yeseva One', serif !important;
+        font-weight: 500 !important;
+        color: rgb(255, 255, 255) !important;
+        margin: 0;
+        padding: 15px 0;
+    }
+
+    .card-about-manufacture {
+        background-color: rgb(66, 175, 121) !important;
+        width: 100% !important;
+        height: auto !important;
+        justify-content: center !important;
+    }
+
+    .h12-size {
+        font-size: 2rem !important;
+        line-height: 1.75rem !important;
+        font-family: 'Yeseva One', serif !important;
+        font-weight: 500 !important;
+
+        color: rgb(218 112 72) !important;
+        padding-bottom: 5px !important;
+        margin-top: 1rem !important;
+        margin-bottom: 1rem !important;
+    }
+
+    .p-size-about-c-para {
+        margin-top: 5px !important;
+        font-family: 'Quicksand', sans-serif !important;
+        text-align: center !important;
+        font-weight: 600 !important;
+        font-size: 1.25rem !important;
+        color: rgb(0, 0, 0) !important;
+        padding-left: 40px !important;
+        padding-right: 40px !important;
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+        line-height: 1.375 !important;
+    }
+
+    .card-about-certificate {
+        background-color: rgb(255, 255, 255) !important;
+        width: 100% !important;
+        height: auto !important;
+        padding-bottom: 0 !important;
+    }
+
+    .grid-cols-3 {
+        display: grid !important;
+        align-items: flex-start !important;
+        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+        padding-top: 40px !important;
+        margin-bottom: 30px !important;
+
+        padding-right: 0px !important;
+        padding-left: 25px !important;
+    }
+
+    .navbar-header button {
+        border-color: #ccc !important;
+        background-color: #eee !important;
+        padding: 4px 16px !important;
+        margin-top: 13px !important;
+    }
+
+    .navbar-toggle {
+        margin-right: -32px !important;
+        margin-top: 3px !important;
+    }
+
+    /* .navbar-brand.reduce {
+        margin-top: 0;
+        padding-top: 45px !important;
+        padding-bottom: 5px;
+        -webkit-transition: all 0.4s ease-in-out;
+        -moz-transition: all 0.4s ease-in-out;
+        transition: all 0.4s ease-in-out;
+    }
+    .navbar-brand {
+        padding-top: 45px !important;
+    } */
+    /* .logo-navbar {
+        margin-top: -70px !important;
+        margin-left: -15px !important;
+    } */
+    .container_certificate1 {
+        display: grid;
+    }
+
+    .card-img-certificate {
+        height: auto !important;
+        width: 45vw !important;
+        margin-left: 0 !important;
+    }
+
+    .image-text1 {
+        font-family: 'Quicksand', sans-serif !important;
+        text-align: center !important;
+        font-weight: 600 !important;
+        font-size: 1.25rem !important;
+        color: black !important;
+        line-height: 1.26 !important;
+    }
+
+    .certificate1 {
+        width: -webkit-fill-available !important;
+    }
+
+    .image-text2 {
+        color: black !important;
+        font-family: 'Quicksand', sans-serif !important;
+        text-align: center !important;
+        font-weight: 600 !important;
+        font-size: 1.25rem !important;
+        line-height: 1.26 !important;
+        margin: 0;
+    }
+
+    .foot-grid-card-3 {
+        margin-left: -13px !important;
+        width: 100% !important;
+    }
+
+    .nav-foot-list {
+        margin-top: 4px !important;
+    }
+
+    .foot-grid-card-1 {
+        margin-left: -41px !important;
+        margin-top: -161px !important;
+        padding-top: 22px !important;
+        margin-right: 0px !important;
+        width: 50% !important;
+    }
+
+    .border-right {
+        border-right: none;
+        border-bottom: 1px solid white;
+    }
+
+    .media-icon1 {
+        padding-bottom: -8px !important;
+        display: block !important;
+    }
+
+    .media-icon {
+        display: none !important;
+    }
+
+    .text-style {
+        /* font-family: 'Rubik', sans-serif !important; */
+        font-family: 'Quicksand', sans-serif !important;
+
+        font-size: 1.2rem !important;
+        font-weight: 300 !important;
+    }
+
+    .ul-li {
+        margin-top: 74px !important;
+        margin-bottom: -5px !important;
+    }
+
+    .text-add {
+        font-family: 'Quicksand', sans-serif !important;
+
+        font-size: 1.2rem !important;
+        font-weight: 500 !important;
+        text-align: justify !important;
+        margin-top: 2px !important;
+    }
+
+    .footer-main {
+        padding-bottom: 18px !important;
+    }
+
+    .nav-email {
+        padding-top: 10px;
+    }
+
+    /* .nopadding {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+
+        position: inherit !important;
+        z-index: 120 !important;
+        margin-top: -9px !important;
+    } */
+    .fix-icon-logo-scrollup {
+        height: 20px !important;
+        width: 28px !important;
+        margin-top: 10px !important;
+    }
+
+    .heading-persistent {
+        padding: 0px 64px !important;
+    }
+
+    .persistent-para {
+        padding: 0px 28px;
+    }
+
+    .scrollup {
+        position: fixed !important;
+        width: 36px !important;
+        height: 36px !important;
+        bottom: 8px !important;
+        right: 14px !important;
+        background: #9b59b6 !important;
+        -webkit-border-radius: 2px 2px 0 0 !important;
+        -moz-border-radius: 2px 2px 0 0 !important;
+        border-radius: 60px !important;
+        display: block !important;
+        opacity: 1.56 !important;
+    }
+
+    .navbar.navbar-custom ul.nav.navbar-nav {
+        display: flow-root !important;
+    }
+
+    body {
+        width: 100% !important;
+        height: 100% !important;
+        font-family: 'Open Sans', sans-serif !important;
+        font-weight: 300 !important;
+        color: #666 !important;
+        background-color: #ffffff !important;
+        font-size: 16px !important;
+        line-height: 1.6em !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        overflow-x: hidden !important;
+    }
+
+    .navbar {
+        position: fixed !important;
+        top: 0 !important;
+        left: 0 !important;
+        width: 100% !important;
+        z-index: 9999 !important;
+    }
+
+    .container-main-about {
+        margin-left: 0px !important;
+        display: grid;
+        align-items: flex-start;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar {
+        position: fixed !important;
+    }
+
+    .card-mg {
+        margin-right: 0px !important;
+        margin-bottom: 5px;
+    }
+
+    .icecreame {
+        margin-top: -19px !important;
+    }
+
+    .namkeen {
+        margin-top: -20px !important;
+    }
+
+    .certificate1 {
+        display: block !important;
+    }
+
+    .about-footer-certificate {
+        margin-top: 0px !important;
+        height: auto !important;
+        padding-bottom: 50px;
+    }
+}
+
+@media (max-width: 1060px) {
+    .container_about1 {
+        background-color: rgb(66, 175, 121) !important;
+
+        justify-content: center !important;
+        position: relative !important;
+    }
+
+    .container_about2 {
+        background-color: rgb(209, 72, 72) !important;
+    }
+
+    .container_about3 {
+        background-color: #854382 !important;
+    }
+}
+
+@media (max-width: 1075px) {
+    .navabr-din.navbar-small {
+        height: 4rem !important;
+    }
+}
+
+@media (min-width: 750px) and (max-width: 1075px) {
+    .card-mg {
+        margin-right: 0px !important;
+        width: 34%;
+        height: 73vh;
+    }
+
+    .container-main-about {
+        margin-left: 0px !important;
+        display: flex !important;
+    }
+
+    .container_about1 {
+        height: 100% !important;
+    }
+
+    .container_about2 {
+        height: 100% !important;
+    }
+
+    .container_about3 {
+        height: 100% !important;
+    }
+
+    .about-footer-certificate {
+        padding: 0 0 30px 0;
+    }
+
+    .card-img-top {
+        padding: 7px 11px;
+        width: 91% !important;
+        height: auto;
+    }
+
+    .heading-persistent {
+        padding: 0px 64px !important;
+    }
+
+    .persistent-para {
+        padding: 0px 28px !important;
+    }
+
+    .present-para {
+        padding: 15px 86px !important;
+    }
+}
+
+@media (max-width: 1075px) {
+    .footer-col {
+        width: -webkit-fill-available;
+    }
+
+    .body-width-full {
+        width: -webkit-fill-available;
+    }
+
+    .card-mg {
+        height: auto;
+    }
+
+    /*
+    .product-header-one {
+        margin-top: 147px;
+    }
+    .product-img-one {
+        height: auto !important;
+        width: 100% !important;
+    }
+    .product-img-TWO {
+        height: auto !important;
+        width: 100% !important;
+    } */
+    .about-header-text {
+        position: absolute;
+        padding: 67px 0 0 0;
+    }
+
+    .navabr-din.navbar-small {
+        height: 8rem !important;
+    }
+
+    .manufacturing-para {
+        padding: 55px 76px;
+    }
+
+    .about-card-heading2 {
+        padding: 26px 18px;
+    }
+
+    /* .img-responsive-about {
+        height: 91vh !important;
+    } */
+
+    .heading-persistent {
+        padding: 0px 0px !important;
+    }
+
+    .service-box {
+        padding: 0px 0px;
+    }
+
+    .image-text1 {
+        font-family: 'Quicksand', sans-serif !important;
+        text-align: center !important;
+        font-weight: 600 !important;
+        font-size: 1.5rem !important;
+        color: black !important;
+        margin-bottom: 0 !important;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    .image-text2 {
+        font-size: 1.5rem !important;
+        color: black !important;
+        margin-bottom: 0 !important;
+        padding: 0 22px !important;
+        margin: 0 !important;
+    }
+}
+
+@media (min-width: 1061px) and (max-width: 1075px) {
+    .footer-card-text {
+        height: auto !important;
+        width: 100vw !important;
+        margin-top: 19px !important;
+        text-align: center !important;
+        background-color: rgb(223 82 84) !important;
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+        margin-bottom: 0px;
+        display: inline-flex;
+    }
+
+    .foot-card {
+        /* margin-top: 27px !important; */
+        padding-right: 0.5rem !important;
+        padding-left: 0.5rem !important;
+        padding-top: 0rem !important;
+        padding-bottom: 0rem !important;
+    }
+
+    .certificate1 {
+        width: -webkit-fill-available !important;
+    }
+
+    .main-product-about {
+        display: grid;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1350px) {
+    .business-card-img {
+        height: auto !important;
+    }
+}
+
+@media (min-width: 669px) and (max-width: 1080px) {
+    .about-card-img {
+        height: auto !important;
+        display: block !important;
+    }
+    .img-responsive-about {
+        height: auto !important;
+        display: block !important;
+    }
+    /* */
+    .contact-card-img2 {
+        display: none !important;
+    }
+    .contact-card-img3 {
+        display: block !important;
+        height: auto !important;
+    }
+    .logo-navbar {
+        height: 8rem !important;
+        margin-top: 5px !important;
+    }
+
+    .nav-shrink .logo-navbar {
+        height: 8rem !important;
+        margin-top: 22px !important;
+    }
+}
+
+@media screen {
+    .nav-shrink .logo-navbar {
+        max-height: 13rem;
+        max-width: 96px;
+        height: 10rem;
+        margin-top: 22px;
+        transition: max-height 0.5s ease-in-out, max-width 0.5s ease-in-out;
+    }
+
+    .nav-links {
+        transition: max-height 0.3s ease-in-out, max-width 0.5s ease-in-out !important;
+    }
+
+    .nav.nav-small {
+        height: 74px;
+        /* small height */
+    }
+}

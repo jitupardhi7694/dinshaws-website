@@ -1,0 +1,34 @@
+<%- include('./layout/partials/messages.ejs') %>
+   <div class="career-container">
+      <div class="card text-white">
+         <img src="../assets/static/images/career-02.jpg" class="career-card-img" alt="..." />
+         <img src="../assets/static/images/career-02-sm.jpg" class="career-card-img1" alt="..." />
+      </div>
+      <!-- career select start -->
+      <div class="career-form-card text-center">
+         <h1 class="career-form-heading">Careers</h1>
+         <div class="mt-4 card-text text-white">"We are always on the lookout for talented individuals to join our growing company.
+            As new job opportunities arise, we give priority to candidates who have registered with us. So, if you want
+            to be the first to hear about new openings, please take a moment to register with us. We look forward to
+            hearing from you!"</div>
+         <div class="apply-btn-container">
+            <!-- <a href="" class=" btn btn-primary">Apply Here</a> -->
+           
+            <a href="/career/create-profile" class="btn btn-rounded  contact-btn">Register Now
+               <i class="fa-solid fa-arrow-right"></i></a>
+         </div>
+      </div>
+   </div>
+   <script>
+      const yesBtn = document.getElementById('yes-btn');
+      const noBtn = document.getElementById('no-btn');
+      const noContainer = document.getElementById('no-container');
+
+      yesBtn.addEventListener('click', () => {
+         noContainer.style.display = 'none';
+      });
+
+      noBtn.addEventListener('click', () => {
+         noContainer.style.display = 'block';
+      });
+   </script>

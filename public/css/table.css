@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Bitter:ital,wght@0,500;1,400&family=Comfortaa&family=Nunito&family=Quicksand:wght@400;500;600&family=Rubik&family=Signika+Negative&display=swap');
+
+.custab {
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin: 5% 0;
+    box-shadow: 3px 3px 2px #ccc;
+    transition: 0.5s;
+}
+.custab:hover {
+    box-shadow: 3px 3px 0px transparent;
+    transition: 0.5s;
+}
+
+table.table-bordered {
+    border: 1px solid rgb(0, 0, 0) !important;
+    margin-top: 20px !important;
+}
+table.table-bordered > thead > tr > th {
+    border: 1px solid rgb(0, 0, 0) !important;
+}
+table.table-bordered > tbody > tr > td {
+    border: 1px solid rgb(0, 0, 0) !important;
+}
+
+.tableContainer {
+    padding-top: 165px;
+
+    padding-bottom: 60px;
+}
+
+table.table td a.edit {
+    color: #4fc103 !important;
+}
+table.table td a.delete {
+    color: #e36424 !important;
+}
+
+.table-heading {
+    font-family: 'Bitter', serif;
+    font-weight: 500;
+}
+.back {
+    color: #763a76 !important;
+}
+/* 
+table.table td i {
+    font-size: 19px;
+}
+table.table td a.add i {
+    font-size: 24px;
+    margin-right: -1px;
+    position: relative;
+    top: 3px;
+}
+table.table th i {
+    font-size: 13px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+table.table th:last-child {
+    width: 100px;
+}
+table.table td a {
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 5px;
+    min-width: 24px;
+} */
+
+.tbody {
+    text-align: center !important;
+    font-size: 1.2rem;
+    font-family: monospace;
+}
+.thead {
+    text-align: center !important;
+    font-size: 1.5rem;
+}
+
+@media (min-height: 360px) and (max-width: 760px) {
+    .tableContainer {
+        padding-top: 87px;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 60px;
+    }
+}
